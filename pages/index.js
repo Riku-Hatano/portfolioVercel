@@ -15,10 +15,10 @@ export default function Index({ preview, allPosts }) {
       <Layout preview={preview}>
         <Head>
           <title>Next.js Blog Example with {CMS_NAME}</title>
-          <h1>hello world riku!</h1>
         </Head>
         <Container>
           <Intro />
+          <h1>hello world riku!</h1>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
