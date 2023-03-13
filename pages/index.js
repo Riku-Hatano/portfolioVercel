@@ -12,6 +12,7 @@ export default function Index() {
     <>
     <h1>hello world</h1>
     <p>riku hatano</p>
+    <h1>pushed again as test!!!</h1>
     </>
   )
 }
