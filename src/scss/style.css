@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+header {
+  background-color: gainsboro; }
+
+main {
+  background-color: khaki; }
+
+nav {
+  background-color: gray; }
+
+footer {
+  background-color: black; }

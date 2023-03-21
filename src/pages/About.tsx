@@ -3,10 +3,13 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const About = () => {
+    
     return (
         <>
             <Header />
-            <p>this is about</p>
+            <main>
+                <p>this is about</p>
+            </main>
             <Footer />
         </>
     )

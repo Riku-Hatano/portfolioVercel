@@ -6,7 +6,9 @@ const Works = () => {
     return (
         <>
             <Header />
-            <p>this is Works</p>
+            <main>
+                <p>this is Works</p>
+            </main>
             <Footer />
         </>
     )
