@@ -26,9 +26,8 @@ const Contact = () => {
             <main>
                 <p>this is contact</p>
                 <form onSubmit={submit}>
-                    <input type="number" name="id" required/>
-                    <input type="text" name="fname" required/>
-                    <input type="text" name="lname" required/>
+                    <input type="text" name="username" required/>
+                    <textarea name="comment" placeholder="please write some comment here" required></textarea>
                     <button type="submit">submit</button>
                 </form>
             </main>

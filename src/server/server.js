@@ -4,8 +4,8 @@ let mysql = require("mysql");
 
 const mysqlcon = mysql.createConnection({
     host:"localhost",
-    user:"root",
-    password:"0822adgj",
+    user:"lu",
+    password:"",
     database:"test2",
     port:3306,
     socketPath:"/tmp/mysql.sock",
@@ -16,18 +16,16 @@ mysqlcon.connect((err) => {
 })
 
 http.createServer((req, res) => {
-    // mysqlcon.connect();
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001'); //mandatory, otherwise, CORS error will happen
     let form = new formidable.IncomingForm();
     form.parse(req, (err, fields, file) => {
        
-        let cmd = `insert into users (id, fname, lname) values (?, ?, ?)`;
-        mysqlcon.query(cmd, [fields.id, fields.fname, fields.lname], (err, result) => {
+        let cmd = `insert into comments (username, comment) values (?, ?)`;
+        mysqlcon.query(cmd, [fields.username, fields.comment], (err, result) => {
             if(err)throw err;
             console.log(result);
         })
-        // mysqlcon.end();
-        res.write(fields.fname);
+        res.write(fields.username);
         res.end();
     })
 }).listen(8089);
