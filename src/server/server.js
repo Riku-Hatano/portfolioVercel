@@ -17,7 +17,7 @@ mysqlcon.connect((err) => {
 })
 
 http.createServer((req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
     switch(req.url) {
         case "/server/addcomment": 
             let form = new formidable.IncomingForm();

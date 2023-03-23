@@ -1,8 +1,11 @@
 import React from "react";
-// import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import dbRequests from "../server/dbRequests";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+
 
 const Contact = () => {
     const submit = (e: any) => {
@@ -34,7 +37,27 @@ const Contact = () => {
         <>
             <Header />
             <main className="contact">
-                <p>this is contact</p>
+                <section>
+                    <h1>contact</h1>
+                    <ul>
+                        <li>
+                            <FontAwesomeIcon icon={faEnvelope} />
+                            : lutianye89@gmail.com
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon={faInstagram} />
+                            : riku.kuri1234
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon={faLinkedin} />
+                            : riku.kurilinkedin
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon={faGithub} />
+                            : https://github.com/Riku-Hatano
+                        </li>
+                    </ul>
+                </section>
                 <form onSubmit={submit}>
                     <input type="text" name="username" required/>
                     <textarea name="comment" placeholder="please write some comment here" required></textarea>

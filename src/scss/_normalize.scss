@@ -4,8 +4,29 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+nav,
+footer,
+main {
+    @include flexColumn;
+}
+
+h1, h3, h4,
+p,
+li {
+    color: dimgray;
+}
+
+main {
+    padding: 5%;
+}
+
 a {
     text-decoration: none;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
 }
 
 li {
