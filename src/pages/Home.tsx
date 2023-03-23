@@ -4,6 +4,8 @@ import axios from "axios";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+
+
 const Home = () => {
     // useEffect(() => {
     //     console.log("mounted")
@@ -12,8 +14,12 @@ const Home = () => {
     return (
         <>
             <Header />
-            <main>
-                <p>home</p>
+            <main className="home">
+                <section className="testContainer">
+                    <article className="circle">
+                        <article className="mouse"></article>
+                    </article>
+                </section>
             </main>
             <Footer />
         </>

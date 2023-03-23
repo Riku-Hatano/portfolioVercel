@@ -1,0 +1,118 @@
+nav {
+    @include flexRow;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+
+    details,
+    ul, 
+    li,
+    a {
+        width: 100%;
+    }
+
+    summary::-webkit-details-marker {
+        display:none;
+      }
+    
+    a, 
+    summary {
+        color: $defaultColorWhite;
+    }
+
+    summary {
+        list-style: none;
+        list-style-type: none;
+    }
+
+    ul {
+        @include flexColumn;
+        align-items: flex-start;
+        margin-top: 2vh;
+        row-gap: 1vh;
+    }
+
+    // li:hover {
+    //     background-color: $defaultColorWhite;
+
+    //     a {
+    //         color: $defaultColorBlack;
+    //     }
+    // }
+
+    a {
+        @include flexRow;
+        justify-content: left;
+    }
+}
+
+.home {
+    .testContainer {
+        width: 100%;
+        
+        animation-name: slidein;
+        animation-duration: 3s;
+        animation-timing-function:cubic-bezier(1, 1, 1, 1);
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        
+        .circle {
+            @include flexRow;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: 20px solid $defaultColorBlack;
+            border-right: 20px solid $defaultColorWhite;
+            box-sizing: border-box;
+            
+            animation-name: mouseMove;
+            animation-duration: .2s;
+            animation-iteration-count: infinite;
+            animation-timing-function:cubic-bezier(1, 1, 1, 1);
+            animation-direction: alternate;
+        }
+    }
+}
+
+_:lang(x)+_:-webkit-full-screen-document, nav{
+    @include flexRow;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+
+    details,
+    ul, 
+    li,
+    a {
+        width: 100%;
+    }
+    
+    a, 
+    summary {
+        color: $defaultColorWhite;
+    }
+
+    summary {
+        list-style: none;
+    }
+
+    ul {
+        @include flexColumn;
+        align-items: flex-start;
+        padding-top: 2vh;
+        row-gap: 1vh;
+    }
+
+    // li:hover {
+    //     background-color: $defaultColorWhite;
+
+    //     a {
+    //         color: $defaultColorBlack;
+    //     }
+    // }
+
+    a {
+        @include flexRow;
+        justify-content: left;
+    }
+}
