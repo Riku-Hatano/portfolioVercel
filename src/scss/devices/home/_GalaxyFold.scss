@@ -1,5 +1,10 @@
+header {
+    position: relative;
+    height: 4vh;
+    width: 100%;
+}
+
 nav {
-    @include flexRow;
     justify-content: right;
     position: fixed;
     width: 100%;
@@ -11,7 +16,7 @@ nav {
         width: 100%;
     }
 
-    summary::-webkit-details-marker {
+    summary::-webkit-details-marker { //to delete list stile in safari.
         display:none;
       }
     
@@ -71,48 +76,5 @@ nav {
             animation-timing-function:cubic-bezier(1, 1, 1, 1);
             animation-direction: alternate;
         }
-    }
-}
-
-_:lang(x)+_:-webkit-full-screen-document, nav{
-    @include flexRow;
-    justify-content: right;
-    position: fixed;
-    width: 100%;
-
-    details,
-    ul, 
-    li,
-    a {
-        width: 100%;
-    }
-    
-    a, 
-    summary {
-        color: $defaultColorWhite;
-    }
-
-    summary {
-        list-style: none;
-    }
-
-    ul {
-        @include flexColumn;
-        align-items: flex-start;
-        padding-top: 2vh;
-        row-gap: 1vh;
-    }
-
-    // li:hover {
-    //     background-color: $defaultColorWhite;
-
-    //     a {
-    //         color: $defaultColorBlack;
-    //     }
-    // }
-
-    a {
-        @include flexRow;
-        justify-content: left;
     }
 }
