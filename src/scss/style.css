@@ -75,32 +75,32 @@ footer {
     justify-content: right;
     position: fixed;
     width: 100%; }
-  nav details,
-  nav ul,
-  nav li,
-  nav a {
-    width: 100%; }
-  nav summary::-webkit-details-marker {
-    display: none; }
-  nav a,
-  nav summary {
-    color: #eeeed5; }
-  nav summary {
-    list-style: none;
-    list-style-type: none; }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-items: flex-start;
-    margin-top: 2vh;
-    row-gap: 1vh; }
-  nav a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: left; }
+    nav details,
+    nav ul,
+    nav li,
+    nav a {
+      width: 100%; }
+    nav summary::-webkit-details-marker {
+      display: none; }
+    nav a,
+    nav summary {
+      color: #eeeed5; }
+    nav summary {
+      list-style: none;
+      list-style-type: none; }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-items: flex-start;
+      margin-top: 2vh;
+      row-gap: 1vh; }
+    nav a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: left; }
   .home .testContainer {
     width: 100%;
     animation-name: slidein;
@@ -108,18 +108,18 @@ footer {
     animation-timing-function: cubic-bezier(1, 1, 1, 1);
     animation-iteration-count: infinite;
     animation-direction: normal; }
-  .home .testContainer .circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    border: 20px solid #7c955d;
-    border-right: 20px solid #eeeed5;
-    box-sizing: border-box;
-    animation-name: mouseMove;
-    animation-duration: .2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(1, 1, 1, 1);
-    animation-direction: alternate; } }
+    .home .testContainer .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      border: 20px solid #7c955d;
+      border-right: 20px solid #eeeed5;
+      box-sizing: border-box;
+      animation-name: mouseMove;
+      animation-duration: .2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(1, 1, 1, 1);
+      animation-direction: alternate; } }
