@@ -7,7 +7,9 @@ const Works = () => {
         <>
             <Header />
             <main className="works">
-                <p>this is Works</p>
+                <figure>
+                    <img src="" alt="" />
+                </figure>
             </main>
             <Footer />
         </>

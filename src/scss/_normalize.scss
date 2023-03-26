@@ -4,6 +4,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav,
 footer,
 main {
@@ -33,13 +37,13 @@ li {
     list-style-type: none;
 }
 
-header {
-    background-color: gainsboro;
-}
-
 nav {
     background-color: $defaultColorBlack;
-    padding: 2%;
+}
+
+header {
+    background-color: $defaultColorBlack;
+    color: $defaultColorWhite;
 }
 
 main {
@@ -49,7 +53,7 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: $defaultColorBlack;
 }
 
 @keyframes slidein {
