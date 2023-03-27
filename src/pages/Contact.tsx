@@ -37,6 +37,9 @@ const Contact = () => {
     const submitMail = (e: any) => {
         e.preventDefault();
         const formData = new FormData(e.target);
+        e.target.name.value = "";
+        e.target.email.value = "";
+        e.target.message.value = "";
         axiosObj.post("/test", formData).then(
             (res) => {
                 console.log(res);
@@ -51,6 +54,9 @@ const Contact = () => {
         <>
             <Header />
             <main className="contact">
+                <section>
+                    <p>Thanks for reading! If you need contact, please send message to me through below social medias!</p>
+                </section>
                 <section>
                     <ul>
                         <li>
@@ -77,10 +83,12 @@ const Contact = () => {
                     <button type="submit">submit</button>
                 </form> */}
                 <form onSubmit={submitMail}>
-                    <input type="text" name="name" placeholder="name"/>
-                    <input type="email" name="email" placeholder="email"/>
-                    <textarea name="message"></textarea>
-                    <button type="submit">submit message</button>
+                    <article>
+                        <input type="text" name="name" placeholder="Your Name"/>
+                        <input type="email" name="email" placeholder="Your Email Address"/>
+                    </article>
+                    <textarea name="message" placeholder="Message here"></textarea>
+                    <button type="submit">submit</button>
                 </form>
             </main>
             <Footer />

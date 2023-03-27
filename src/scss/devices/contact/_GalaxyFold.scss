@@ -1,0 +1,43 @@
+.contact {
+    form {
+        @include flexColumn;
+        width: 100%;
+        height: 15vh;
+        background-color: $defaultColorBlack;
+
+        textarea, input {
+            border: 2px solid $defaultColorBlack;
+            background-color: $defaultColorWhite;
+        }
+
+        textarea {
+            width: 90%;
+            border: 0 none transparent;
+        }
+
+        button {
+            border: 0 none transparent;
+            padding: 1vh;
+            background-color: $defaultColorWhite;
+            color: $defaultColorBlack;
+        }
+
+        article {
+            @include flexRow;
+            justify-content: space-between;
+            width: 100%;
+            
+            input {
+                width: 48%;
+            }
+        }
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        height: 5vh;
+    }
+}
