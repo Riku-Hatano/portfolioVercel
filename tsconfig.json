@@ -21,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "types" //by writing "types" here, TypsScript will see all files under the types folder same as src folder
   ]
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import pic1 from "../assets/imgs/pic1.jpeg";
 
 const About = () => {
     return (
@@ -79,55 +80,55 @@ const About = () => {
                         </div>
                         <div>
                             <figure>
-                                <img src="" alt="born" />
+                                <img src={pic1} alt="born" />
                                 <figcaption>
                                     Born in Niigata prefecture.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="elementary school" />
+                                <img src={pic1} alt="elementary school" />
                                 <figcaption>
                                     Without studying, I just played soccer and game a lot especially Pokemon.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="junior high school" />
+                                <img src={pic1} alt="junior high school" />
                                 <figcaption>
                                     Enter the soccer team as a club activity in junior high school.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="high school" />
+                                <img src={pic1} alt="high school" />
                                 <figcaption>
                                     Quit to play soccer and enter badminton club. I noticed that I didn't like to play soccer too much and got to know I can change what I do.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="university" />
+                                <img src={pic1} alt="university" />
                                 <figcaption>
                                     Learned about Economics. My theme was direct investment and international trade. While I learned economics, I was interested in programming a little bit and want to see overseas by myself.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="quit job hunting" />
+                                <img src={pic1} alt="quit job hunting" />
                                 <figcaption>
                                     I decided to go abroad and prepared for that.
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="Dubai" />
+                                <img src={pic1} alt="Dubai" />
                                 <figcaption>
                                     I went to Dubai to study English. In there, I met a guy who gave me an opportuninty to study programming more. 
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="after Dubai" />
+                                <img src={pic1} alt="after Dubai" />
                                 <figcaption>
                                     I got a job related to software development, but because of the lack of my skill, I worked without payment. I noticed that I like to make some programs. Even though I cannot be paid, I didn't lose motivation to learn.  
                                 </figcaption>
                             </figure>
                             <figure>
-                                <img src="" alt="Vancouver" />
+                                <img src={pic1} alt="Vancouver" />
                                 <figcaption>
                                     I learned programming fot the first time with teacher. Not only hard skill, I also learned soft skill like how to manage the team and communicate each other as the team member. I strongly decided to work as a developer and keep on learning.  
                                 </figcaption>
