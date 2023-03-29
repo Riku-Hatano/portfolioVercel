@@ -20,6 +20,7 @@ const Home = () => {
                         <article className="mouse"></article>
                     </article>
                 </section>
+                <p>hoge</p>
             </main>
             <Footer />
         </>
