@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FormEvent } from "react";
 import dbRequests from "../server/dbRequests";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -9,7 +10,7 @@ import axiosObj from "../server/sendMailConfig";
 
 
 const Contact = () => {
-    const submit = (e: any) => {
+    const submit = (e: any): void => {
         e.preventDefault();
         // const formData = new FormData(e.target);
         // const axiosObj = axios.create({

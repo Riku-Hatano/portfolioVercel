@@ -65,6 +65,9 @@ footer {
     rotate: 135deg; } }
 
 @media (min-width: 280px) {
+  img {
+    width: 100px;
+    height: 100px; }
   .about {
     align-items: flex-start; }
   .contact form {
