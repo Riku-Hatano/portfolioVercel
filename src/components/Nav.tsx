@@ -9,7 +9,7 @@ const Nav = () => {
             <nav>
                 <details>
                     <summary>
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={faBars} className="bar"/>
                     </summary>
                     <ul>
                         <li>
@@ -26,8 +26,8 @@ const Nav = () => {
                         </li>
                     </ul>
                 </details>
+                <h2>Riku's portfolio</h2>
             </nav>
-        
         </>
     )
 }

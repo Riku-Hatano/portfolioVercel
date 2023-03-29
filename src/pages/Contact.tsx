@@ -2,13 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FormEvent } from "react";
 import dbRequests from "../server/dbRequests";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import axiosObj from "../server/sendMailConfig";
 
 
 const Contact = () => {
-    const submit = (e: any) => {
+    const submit = (e: any): void => {
         e.preventDefault();
         // const formData = new FormData(e.target);
         // const axiosObj = axios.create({
@@ -33,12 +33,29 @@ const Contact = () => {
         )
     }
 
+    const submitMail = (e: any) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        e.target.name.value = "";
+        e.target.email.value = "";
+        e.target.message.value = "";
+        axiosObj.post("/test", formData).then(
+            (res) => {
+                console.log(res);
+            },
+            (rej) => {
+                console.log(rej);
+            }
+        )
+    }
+
     return (
         <>
-            <Header />
             <main className="contact">
                 <section>
-                    <h1>contact</h1>
+                    <p>Thanks for reading! If you need contact, please send message to me through below social medias!</p>
+                </section>
+                <section>
                     <ul>
                         <li>
                             <FontAwesomeIcon icon={faEnvelope} />
@@ -58,15 +75,25 @@ const Contact = () => {
                         </li>
                     </ul>
                 </section>
-                <form onSubmit={submit}>
+                {/* <form onSubmit={submit}>
                     <input type="text" name="username" required/>
                     <textarea name="comment" placeholder="please write some comment here" required></textarea>
                     <button type="submit">submit</button>
+                </form> */}
+                <form onSubmit={submitMail}>
+                    <article>
+                        <input type="text" name="name" placeholder="Your Name"/>
+                        <input type="email" name="email" placeholder="Your Email Address"/>
+                    </article>
+                    <textarea name="message" placeholder="Message here"></textarea>
+                    <button type="submit">submit</button>
                 </form>
             </main>
-            <Footer />
         </>
     )
 }
 
+<a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!">
+                        <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
 export default Contact;

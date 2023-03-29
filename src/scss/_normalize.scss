@@ -4,20 +4,20 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav,
 footer,
 main {
     @include flexColumn;
 }
 
-h1, h3, h4,
+h1, h2, h3, h4,
 p,
 li {
     color: dimgray;
-}
-
-main {
-    padding: 5%;
 }
 
 a {
@@ -30,26 +30,27 @@ svg {
 }
 
 li {
-    list-style-type: none;
-}
-
-header {
-    background-color: gainsboro;
+    list-style-position: inside;
+    // list-style-type: none;
 }
 
 nav {
     background-color: $defaultColorBlack;
-    padding: 2%;
+}
+
+header {
+    background-color: $defaultColorWhite;
+    color: $defaultColorWhite;
 }
 
 main {
     background-color: $defaultColorWhite;
     overflow: hidden;
-    padding: 2%;
+    padding: 5%;
 }
 
 footer {
-    background-color: black;
+    background-color: $defaultColorBlack;
 }
 
 @keyframes slidein {
