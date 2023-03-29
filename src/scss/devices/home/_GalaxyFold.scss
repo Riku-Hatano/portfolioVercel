@@ -2,98 +2,67 @@ header {
     position: relative;
     height: 5vh;
     width: 100%;
-}
 
-h2 {
-    @include flexRow;
-    position: fixed;
-    top: 0;
-    left: 5vh;
-    width: calc(100% - 5vh);
-    height: 5vh;
-    border-bottom: 1px solid $defaultColorWhite;
-}
-
-.bar {
-    font-size: 30px;
-}
-
-nav {
-    @include flexRow;
-    justify-content: right;
-    position: fixed;
-    width: 100%;
-
-    details,
-    ul, 
-    li,
-    a {
-        width: 100%;
-    }
-
-    summary::-webkit-details-marker { //to delete list stile in safari.
-        display:none;
-      }
-    
-    a, 
-    summary,
     h2 {
-        color: $defaultColorWhite;
-    }
-
-    summary {
         @include flexRow;
-        list-style: none;
-        list-style-type: none;
-        width: 5vh;
+        position: fixed;
+        top: 0;
+        left: 5vh;
+        width: calc(100% - 5vh);
         height: 5vh;
         border-bottom: 1px solid $defaultColorWhite;
     }
 
-    ul {
-        @include flexColumn;
-        align-items: flex-start;
-    }
-
-    li {
-    }
-
-    a {
+    nav {
         @include flexRow;
-        justify-content: left;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        padding-left: 5%;
-        border-bottom: 1px solid $defaultColorWhite;
+        justify-content: right;
+        position: fixed;
+        width: 100%;
+    
+        details,
+        ul, 
+        li,
+        a {
+            width: 100%;
+        }
+    
+        summary::-webkit-details-marker { //to delete list stile in safari.
+            display:none;
+          }
+        
+        a, 
+        summary,
+        h2 {
+            color: $defaultColorWhite;
+        }
+    
+        summary {
+            @include flexRow;
+            list-style: none;
+            list-style-type: none;
+            width: 5vh;
+            height: 5vh;
+            border-bottom: 1px solid $defaultColorWhite;
+        }
+    
+        ul {
+            @include flexColumn;
+            align-items: flex-start;
+        }
+    
+        a {
+            @include flexRow;
+            justify-content: left;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            padding-left: 5%;
+            border-bottom: 1px solid $defaultColorWhite;
+        }
     }
 }
 
-.home {
-    .testContainer {
-        width: 100%;
-        
-        animation-name: slidein;
-        animation-duration: 3s;
-        animation-timing-function:cubic-bezier(1, 1, 1, 1);
-        animation-iteration-count: infinite;
-        animation-direction: normal;
-        
-        .circle {
-            @include flexRow;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            border: 20px solid $defaultColorBlack;
-            border-right: 20px solid $defaultColorWhite;
-            box-sizing: border-box;
-            
-            animation-name: mouseMove;
-            animation-duration: .2s;
-            animation-iteration-count: infinite;
-            animation-timing-function:cubic-bezier(1, 1, 1, 1);
-            animation-direction: alternate;
-        }
-    }
+.bar {
+    font-size: 30px;
 }
 
 footer {
@@ -130,3 +99,32 @@ footer {
         font-size: 14px;
     }
 }
+
+// .home {
+//     .testContainer {
+//         width: 100%;
+        
+//         animation-name: slidein;
+//         animation-duration: 3s;
+//         animation-timing-function:cubic-bezier(1, 1, 1, 1);
+//         animation-iteration-count: infinite;
+//         animation-direction: normal;
+        
+//         .circle {
+//             @include flexRow;
+//             border-radius: 50%;
+//             width: 40px;
+//             height: 40px;
+//             border: 20px solid $defaultColorBlack;
+//             border-right: 20px solid $defaultColorWhite;
+//             box-sizing: border-box;
+            
+//             animation-name: mouseMove;
+//             animation-duration: .2s;
+//             animation-iteration-count: infinite;
+//             animation-timing-function:cubic-bezier(1, 1, 1, 1);
+//             animation-direction: alternate;
+//         }
+//     }
+// }
+

@@ -4,8 +4,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FormEvent } from "react";
 import dbRequests from "../server/dbRequests";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import axiosObj from "../server/sendMailConfig";
 
 
@@ -53,7 +51,6 @@ const Contact = () => {
 
     return (
         <>
-            <Header />
             <main className="contact">
                 <section>
                     <p>Thanks for reading! If you need contact, please send message to me through below social medias!</p>
@@ -92,7 +89,6 @@ const Contact = () => {
                     <button type="submit">submit</button>
                 </form>
             </main>
-            <Footer />
         </>
     )
 }

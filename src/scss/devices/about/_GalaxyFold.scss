@@ -4,5 +4,17 @@ img {
 }
 
 .about {
-    align-items: flex-start;
+    section {
+        width: 100%;
+    }
+
+    .aboutSectionFirst {
+        @include flexColumn;
+        justify-content: flex-start;
+        row-gap: 2vh;
+
+        h2, article {
+            width: 100%;
+        }
+    }
 }
