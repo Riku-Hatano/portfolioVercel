@@ -14,7 +14,7 @@ main {
     @include flexColumn;
 }
 
-h1, h3, h4,
+h1, h2, h3, h4,
 p,
 li {
     color: dimgray;
@@ -30,7 +30,8 @@ svg {
 }
 
 li {
-    list-style-type: none;
+    list-style-position: inside;
+    // list-style-type: none;
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
 }
 
 header {
-    background-color: $defaultColorBlack;
+    background-color: $defaultColorWhite;
     color: $defaultColorWhite;
 }
 

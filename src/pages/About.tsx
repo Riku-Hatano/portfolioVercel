@@ -1,15 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import pic1 from "../assets/imgs/pic1.jpeg";
 
 const About = () => {
     return (
         <>
-            <Header />
             <main className="about">
-                <section>
-                    <h3>skills</h3>
+                <section className="aboutSectionFirst">
+                    <h2>skills</h2>
                     <article>
                         <h4>front end</h4>
                         <ul>
@@ -36,8 +33,8 @@ const About = () => {
                         </ul>
                     </article>
                 </section>
-                <section>
-                    <h3>about me</h3>
+                <section className="aboutSectionSecond">
+                    <h2>about me</h2>
                     <article>
                         <h4>self introduction</h4>
                         <p>
@@ -82,62 +79,79 @@ const About = () => {
                             <figure>
                                 <img src={pic1} alt="born" />
                                 <figcaption>
-                                    Born in Niigata prefecture.
+                                    <p>
+                                        Born in Niigata prefecture.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="elementary school" />
                                 <figcaption>
-                                    Without studying, I just played soccer and game a lot especially Pokemon.
+                                    <p>
+                                        Without studying, I just played soccer and game a lot especially Pokemon.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="junior high school" />
                                 <figcaption>
-                                    Enter the soccer team as a club activity in junior high school.
+                                    <p>
+                                        Enter the soccer team as a club activity in junior high school.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="high school" />
                                 <figcaption>
-                                    Quit to play soccer and enter badminton club. I noticed that I didn't like to play soccer too much and got to know I can change what I do.
+                                    <p>
+                                        Quit to play soccer and enter badminton club. I noticed that I didn't like to play soccer too much and got to know I can change what I do.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="university" />
                                 <figcaption>
-                                    Learned about Economics. My theme was direct investment and international trade. While I learned economics, I was interested in programming a little bit and want to see overseas by myself.
+                                    <p>
+                                        Learned about Economics. My theme was direct investment and international trade. While I learned economics, I was interested in programming a little bit and want to see overseas by myself.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="quit job hunting" />
                                 <figcaption>
-                                    I decided to go abroad and prepared for that.
+                                    <p>
+                                        I decided to go abroad and prepared for that.
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="Dubai" />
                                 <figcaption>
-                                    I went to Dubai to study English. In there, I met a guy who gave me an opportuninty to study programming more. 
+                                    <p>
+                                        I went to Dubai to study English. In there, I met a guy who gave me an opportuninty to study programming more. 
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="after Dubai" />
                                 <figcaption>
-                                    I got a job related to software development, but because of the lack of my skill, I worked without payment. I noticed that I like to make some programs. Even though I cannot be paid, I didn't lose motivation to learn.  
+                                    <p>
+                                        I got a job related to software development, but because of the lack of my skill, I worked without payment. I noticed that I like to make some programs. Even though I cannot be paid, I didn't lose motivation to learn.  
+                                    </p>
                                 </figcaption>
                             </figure>
                             <figure>
                                 <img src={pic1} alt="Vancouver" />
                                 <figcaption>
-                                    I learned programming fot the first time with teacher. Not only hard skill, I also learned soft skill like how to manage the team and communicate each other as the team member. I strongly decided to work as a developer and keep on learning.  
+                                    <p>
+                                        I learned programming fot the first time with teacher. Not only hard skill, I also learned soft skill like how to manage the team and communicate each other as the team member. I strongly decided to work as a developer and keep on learning.  
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
                     </article>
                 </section>
             </main>
-            <Footer />
         </>
     )
 }
