@@ -30,8 +30,7 @@ svg {
 }
 
 li {
-    list-style-position: inside;
-    // list-style-type: none;
+    list-style-type: none;
 }
 
 nav {
@@ -53,37 +52,37 @@ footer {
     background-color: $defaultColorBlack;
 }
 
-@keyframes slidein {
-    from {
-      transform: translateX(-40px);
-    //   background-color: khaki;
-    }
+// @keyframes slidein {
+//     from {
+//       transform: translateX(-40px);
+//     //   background-color: khaki;
+//     }
   
-    to {
-      transform: translateX(calc(100%));
-    //   background-color: red;
-    }
-  }
+//     to {
+//       transform: translateX(calc(100%));
+//     //   background-color: red;
+//     }
+//   }
 
-  @keyframes mouseMove {
-    from {
-        // rotate: 0deg;
-        border: 20px solid $defaultColorBlack;
-        border-right: 20px solid $defaultColorWhite;
-    }
+//   @keyframes mouseMove {
+//     from {
+//         // rotate: 0deg;
+//         border: 20px solid $defaultColorBlack;
+//         border-right: 20px solid $defaultColorWhite;
+//     }
 
-    to {
-        // rotate: 45deg;
-        border: 20px solid $defaultColorBlack;
-        border-right: 0px solid $defaultColorWhite;
-    }
-  }
+//     to {
+//         // rotate: 45deg;
+//         border: 20px solid $defaultColorBlack;
+//         border-right: 0px solid $defaultColorWhite;
+//     }
+//   }
 
-  @keyframes changeDirection {
-    from {
-        rotate: 45deg;
-    }
-    to {
-        rotate: 135deg;
-    }
-  }
+//   @keyframes changeDirection {
+//     from {
+//         rotate: 45deg;
+//     }
+//     to {
+//         rotate: 135deg;
+//     }
+//   }
