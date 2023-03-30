@@ -49,6 +49,10 @@ footer {
     width: 100px;
     height: 100px; }
   .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     row-gap: 7vh; }
   .about section, .about h2 {
     width: 100%; }
@@ -92,8 +96,10 @@ footer {
     border-right: 6px solid #7c955d;
     padding-right: 1vh; }
   .about .aboutSectionSecond .chTable .chEvent {
-    height: 25vh;
+    height: 35vh;
     padding-top: 5vh; }
+  .about .aboutSectionSecond .chTable p {
+    font-size: 14px; }
   .about .aboutSectionSecond .chPictures {
     display: flex;
     flex-direction: column;
@@ -106,7 +112,7 @@ footer {
     align-items: flex-start;
     justify-content: left;
     width: 100%;
-    height: 30vh; }
+    height: 40vh; }
   .about .aboutSectionSecond .chPictures .chEvent > aside {
     display: flex;
     flex-direction: column;
@@ -116,7 +122,8 @@ footer {
     align-items: flex-start;
     width: calc(100% - 2vh); }
   .about .aboutSectionSecond .chPictures .chEvent > aside p {
-    text-align: left; }
+    text-align: left;
+    font-size: 12px; }
   .about .aboutSectionSecond .chPictures .chEvent > div {
     width: 2vh;
     height: 100%;
@@ -124,7 +131,7 @@ footer {
   .about .aboutSectionSecond .chPictures .chEvent > div > span {
     height: 1vh;
     width: 3vh;
-    margin-top: 6vh;
+    margin-top: 8vh;
     background-color: #7c955d; }
   .about .aboutSectionSecond .chEvent {
     display: flex;
@@ -137,41 +144,58 @@ footer {
   .about .aboutSectionSecond .chEvent img {
     border-radius: 50%;
     border: 6px solid #7c955d; }
-  .contact form {
+  .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 15vh;
-    background-color: #7c955d; }
-  .contact form textarea, .contact form input {
-    border: 2px solid #7c955d;
-    background-color: #eeeed5; }
-  .contact form textarea {
-    width: 90%;
-    border: 0 none transparent; }
-  .contact form button {
-    border: 0 none transparent;
-    padding: 1vh;
-    background-color: #eeeed5;
-    color: #7c955d; }
-  .contact form article {
+    align-items: flex-start;
+    row-gap: 4vh; }
+  .contact > h1,
+  .contact > p,
+  .contact > section,
+  .contact > form,
+  .contact textarea {
+    width: 100%; }
+  .contact ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-items: flex-start;
+    row-gap: 1vh; }
+  .contact > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    row-gap: 1vh; }
+  .contact > form input, .contact > form textarea {
+    border: 2px solid #7c955d;
+    background-color: #eeeed5; }
+  .contact > form > article {
+    display: flex;
     justify-content: space-between;
     width: 100%; }
-  .contact form article input {
-    width: 48%; }
-  .contact textarea {
-    width: 100%; }
-  .contact textarea {
-    height: 5vh; }
+  .contact > form > article > input {
+    width: 43%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2.5%;
+    padding-right: 2.5%; }
+  .contact > form > textarea {
+    padding: 1vh;
+    box-sizing: border-box;
+    height: 20vh; }
+  .contact > form > button {
+    padding: 1vh;
+    border: 0px none transparent;
+    background-color: #7c955d;
+    color: #eeeed5; }
   header {
     position: relative;
-    height: 5vh;
+    height: 7vh;
     width: 100%; }
   header h2 {
     display: flex;
@@ -182,7 +206,7 @@ footer {
     top: 0;
     left: 5vh;
     width: calc(100% - 5vh);
-    height: 5vh;
+    height: 7vh;
     border-bottom: 1px solid #eeeed5; }
   header nav {
     display: flex;
@@ -191,6 +215,7 @@ footer {
     align-items: center;
     justify-content: right;
     position: fixed;
+    z-index: 99;
     width: 100%; }
   header nav details,
   header nav ul,
@@ -211,7 +236,7 @@ footer {
     list-style: none;
     list-style-type: none;
     width: 5vh;
-    height: 5vh;
+    height: 7vh;
     border-bottom: 1px solid #eeeed5; }
   header nav ul {
     display: flex;
@@ -231,6 +256,12 @@ footer {
     border-bottom: 1px solid #eeeed5; }
   .bar {
     font-size: 30px; }
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10vh; }
   footer {
     display: flex;
     flex-direction: column;
@@ -263,4 +294,27 @@ footer {
     width: 100%;
     height: 100%; }
   footer p {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    row-gap: 5vh; }
+  .works > figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh; }
+  .works > figure .worksContainer {
+    position: relative;
+    padding-bottom: 60%;
+    width: 100%;
+    display: flex; }
+  .works > figure .worksContainer > img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%; } }

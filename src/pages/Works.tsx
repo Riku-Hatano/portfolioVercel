@@ -4,10 +4,10 @@ import pic1 from "../assets/imgs/pic1.jpeg";
 const Works = () => {
     return (
         <>
-            <main className="works">
+            <section className="works">
                 <h1>works</h1>
                 <figure>
-                    <a href="https://othello-wheat.vercel.app/">
+                    <a href="https://othello-wheat.vercel.app/" className="worksContainer">
                         <img src={pic1} alt="pic1" />
                     </a>
                     <figcaption>
@@ -20,11 +20,10 @@ const Works = () => {
                         <p>
                             As far as I know, there are no free othello apps in AppStore for now. So, I hope this will help othello player who want to fix othello puzzle for free. 
                         </p>
-
                     </figcaption>
                 </figure>
                 <figure>
-                    <a href="https://chessgame-one.vercel.app/game">
+                    <a href="https://chessgame-one.vercel.app/game" className="worksContainer">
                         <img src={pic1} alt="pic1" />
                     </a>
                     <figcaption>
@@ -42,7 +41,7 @@ const Works = () => {
                         </p>
                     </figcaption>
                 </figure>
-            </main>
+            </section>
         </>
     )
 }

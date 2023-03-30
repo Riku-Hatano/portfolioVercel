@@ -4,7 +4,7 @@ import pic1 from "../assets/imgs/pic1.jpeg";
 const About = () => {
     return (
         <>
-            <main className="about">
+            <section className="about">
                 <section className="aboutSectionFirst">
                     <h2>skills</h2>
                     <article>
@@ -180,7 +180,7 @@ const About = () => {
                         </section>
                     </section>
                 </section>
-            </main>
+            </section>
         </>
     )
 }

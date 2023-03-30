@@ -6,7 +6,7 @@ import Contact from "./Contact";
 const Home = () => {
     return (
         <>
-            <main className="home">
+            <section className="home">
                 {/* <section className="testContainer">
                     <article className="circle">
                         <article className="mouse"></article>
@@ -15,7 +15,7 @@ const Home = () => {
                 <About />
                 <Works />
                 <Contact />
-            </main>
+            </section>
         </>
     )
 }
