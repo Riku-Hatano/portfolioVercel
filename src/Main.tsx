@@ -16,14 +16,18 @@ const Main = () => {
                     <Route path="/" element={
                         <>
                             <Header />
-                            <Home /> 
+                            <main>
+                                <Home /> 
+                            </main>
                             <Footer />
                         </>
                     } />
                     <Route path="/about" element={
                         <>
                             <Header />
-                            <About />
+                            <main>
+                                <About />
+                            </main>
                             <Footer />
                         
                         </>
@@ -31,14 +35,18 @@ const Main = () => {
                     <Route path="/contact" element={
                         <>
                             <Header />
-                            <Contact />
+                            <main>
+                                <Contact />
+                            </main>
                             <Footer />
                         </>
                     } />
                     <Route path="/works" element={
                         <>
                             <Header />
-                            <Works />
+                            <main>
+                                <Works />
+                            </main>
                             <Footer />
                         </>
                     } />

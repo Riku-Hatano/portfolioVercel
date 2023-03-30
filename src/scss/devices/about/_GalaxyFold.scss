@@ -4,6 +4,7 @@ img {
 }
 
 .about {
+    @include flexColumn;
     row-gap: 7vh;
 
     section, h2 {
@@ -54,8 +55,12 @@ img {
             padding-right: 1vh;
 
             .chEvent {
-                height: 25vh;
+                height: 35vh;
                 padding-top: 5vh;
+            }
+
+            p {
+                font-size: 14px;
             }
         }
 
@@ -69,7 +74,7 @@ img {
                 align-items: flex-start;
                 justify-content: left;
                 width: 100%;
-                height: 30vh;
+                height: 40vh;
 
                 > aside {
                     @include flexColumn;
@@ -79,6 +84,7 @@ img {
 
                     p {
                         text-align: left;
+                        font-size: 12px;
                     }
                 }
 
@@ -90,7 +96,7 @@ img {
                     > span {
                         height: 1vh;
                         width: 3vh;
-                        margin-top: 6vh;
+                        margin-top: 8vh;
                         background-color: $defaultColorBlack;
                     }
                 }

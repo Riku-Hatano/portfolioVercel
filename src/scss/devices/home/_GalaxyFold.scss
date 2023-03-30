@@ -1,6 +1,6 @@
 header {
     position: relative;
-    height: 5vh;
+    height: 7vh;
     width: 100%;
 
     h2 {
@@ -9,7 +9,7 @@ header {
         top: 0;
         left: 5vh;
         width: calc(100% - 5vh);
-        height: 5vh;
+        height: 7vh;
         border-bottom: 1px solid $defaultColorWhite;
     }
 
@@ -17,6 +17,7 @@ header {
         @include flexRow;
         justify-content: right;
         position: fixed;
+        z-index: 99;
         width: 100%;
     
         details,
@@ -41,13 +42,15 @@ header {
             list-style: none;
             list-style-type: none;
             width: 5vh;
-            height: 5vh;
+            height: 7vh;
             border-bottom: 1px solid $defaultColorWhite;
         }
     
         ul {
             @include flexColumn;
             align-items: flex-start;
+            // margin-bottom: 0;// to erase the effect of Bootstrap
+            // padding-left: 0; // to erase the effect of Bootstrap
         }
     
         a {
@@ -63,6 +66,11 @@ header {
 
 .bar {
     font-size: 30px;
+}
+
+.home {
+    @include flexColumn;
+    row-gap: 10vh;
 }
 
 footer {

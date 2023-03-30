@@ -51,30 +51,37 @@ const Contact = () => {
 
     return (
         <>
-            <main className="contact">
-                <section>
-                    <p>Thanks for reading! If you need contact, please send message to me through below social medias!</p>
-                </section>
-                <section>
+            <section className="contact">
+                <h1>Contact me</h1>
+                <p>Thanks for reading! If you need contact, please send message through the form or bolew social medias!</p>
+                {/* <section>
                     <ul>
-                        <li>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                            : lutianye89@gmail.com
-                        </li>
-                        <li>
-                            <FontAwesomeIcon icon={faInstagram} />
-                            : riku.kuri1234
-                        </li>
-                        <li>
-                            <FontAwesomeIcon icon={faLinkedin} />
-                            : riku.kurilinkedin
-                        </li>
-                        <li>
-                            <FontAwesomeIcon icon={faGithub} />
-                            : https://github.com/Riku-Hatano
-                        </li>
+                        <a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!">
+                            <li>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                                : lutianye89@gmail.com
+                            </li>
+                        </a>
+                        <a href="https://www.instagram.com/riku.kuri1234" target="_blank">
+                            <li>
+                                <FontAwesomeIcon icon={faInstagram} />
+                                : riku.kuri1234
+                            </li>
+                        </a>
+                        <a href="https://github.com/Riku-Hatano" target="_blank">
+                            <li>
+                                <FontAwesomeIcon icon={faLinkedin} />
+                                : riku.kurilinkedin
+                            </li>
+                        </a>
+                        <a href="https://github.com/Riku-Hatano" target="_blank">
+                            <li>
+                                <FontAwesomeIcon icon={faGithub} />
+                                : https://github.com/Riku-Hatano
+                            </li>
+                        </a>
                     </ul>
-                </section>
+                </section> */}
                 {/* <form onSubmit={submit}>
                     <input type="text" name="username" required/>
                     <textarea name="comment" placeholder="please write some comment here" required></textarea>
@@ -88,12 +95,9 @@ const Contact = () => {
                     <textarea name="message" placeholder="Message here"></textarea>
                     <button type="submit">submit</button>
                 </form>
-            </main>
+            </section>
         </>
     )
 }
 
-<a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                    </a>
 export default Contact;
