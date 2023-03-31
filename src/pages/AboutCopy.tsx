@@ -36,123 +36,147 @@ const About = () => {
                 <section className="aboutSectionSecond">
                     <h2>about me</h2>
                     <article>
-                        <h3>self introduction</h3>
+                        <h4>self introduction</h4>
                         <p>
                             Hi! I'm Riku Hatano, from Japan! I have learned web development in Tamwood Careers for six months and before joinning Tamwood, I have studied this field for five months.
                         </p>
+                        <p>
+                            I also have the background of economics as an university student. And I am undergraduated.
+                        </p>
                     </article>
                     <section>
-                        <h3>short history</h3>
-                        <p>Let's look back on my life a little bit!</p>
-                        <section className="eventContainer">
-                            <article className="eventCell">
-                                <p>1999.08</p>
-                                <div><span></span></div>
-                                <aside>
-                                    <img src={pic1} alt="born" />
-                                    <figcaption>
-                                        <p>
-                                            Born in Niigata prefecture, located on north of Tokyo.
-                                        </p>
-                                    </figcaption>
-                                </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2006.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
+                        <h4>short history</h4>
+                        <section>
+                            <div className="chTable">
+                                <article className="chEvent">
+                                    <p>1999.08</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2006.04 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2012.04 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2015.04 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2018.04 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2021.01 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2021.09 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2021.04 ~</p>
+                                </article>
+                                <article className="chEvent">
+                                    <p>2022.10 ~</p>
+                                </article>
+                            </div>
+                            <div className="chPictures">
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
                                         <img src={pic1} alt="born" />
+                                        <figcaption>
+                                            <p>
+                                                Born in Niigata prefecture.
+                                            </p>
+                                        </figcaption>
+                                    </aside>
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="elementary school" />
                                         <figcaption>
                                             <p>
                                                 Without studying, I just played soccer and game a lot especially Pokemon.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2012.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="junior high school" />
                                         <figcaption>
                                             <p>
                                                 Enter the soccer team as a club activity in junior high school.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2015.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="high school" />
                                         <figcaption>
                                             <p>
                                                 Quit to play soccer and enter badminton club. I noticed that I didn't like to play soccer too much and got to know I can change what I do.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2018.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="university" />
                                         <figcaption>
                                             <p>
                                                 Learned about Economics. My theme was direct investment and international trade. While I learned economics, I was interested in programming a little bit and want to see overseas by myself.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2018.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="quit job hunting" />
                                         <figcaption>
                                             <p>
                                                 I decided to go abroad and prepared for that.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2021.09 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="Dubai" />
                                         <figcaption>
                                             <p>
                                                 I went to Dubai to study English. In there, I met a guy who gave me an opportuninty to study programming more. 
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2021.04 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="after Dubai" />
                                         <figcaption>
                                             <p>
                                                 I got a part time job related to software development. But because of lack of skill, my job turned to unpaid. And study programming a lot.
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
-                            <article className="eventCell">
-                                <p>2022.10 ~</p>
-                                <div><span></span></div>
-                                <aside>
-                                        <img src={pic1} alt="born" />
+                                </figure>
+                                <figure className="chEvent">
+                                    <div><span></span></div>
+                                    <aside>
+                                        <img src={pic1} alt="Vancouver" />
                                         <figcaption>
                                             <p>
                                                 I studied programming at college and started to find job in Vancouver. 
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
+                                </figure>
+                            </div>
                         </section>
                     </section>
                 </section>
