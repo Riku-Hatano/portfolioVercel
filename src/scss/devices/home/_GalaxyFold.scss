@@ -73,6 +73,10 @@ header {
     row-gap: 10vh;
 }
 
+// main {
+//     padding: 0;
+// }
+
 footer {
     @include flexColumn;
     row-gap: 2vh;
