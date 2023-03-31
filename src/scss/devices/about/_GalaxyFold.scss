@@ -122,6 +122,7 @@
 // }
 
 .about {
+    background-color: gainsboro;
     @include flexColumn;
     row-gap: 7vh;
 
@@ -181,13 +182,21 @@
 
             > p {
                 position: absolute;
-                top: 50px;
+                top: 0px;
                 left: 0;
                 min-height: 100%;
                 width: 10vh;
                 font-size: 14px;
                 text-align: center;
                 border-right: 1vh solid $defaultColorBlack;
+
+                > span {
+                    position: inherit;
+                    top: calc(50px - 1vh);
+                    left: 0;
+                    @include flexRow;
+                    width: 100%;
+                }
             }
 
             > div {

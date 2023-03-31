@@ -1,11 +1,20 @@
 .works {
+    background-color: gainsboro;
     @include flexColumn;
     align-items: flex-start;
-    row-gap: 5vh;
 
     > figure {
         @include flexColumn;
-        row-gap: 2vh;
+        row-gap: 4vh;
+        padding-bottom: 10vh;
+
+        > figcaption {
+            @include flexColumn;
+            row-gap: 2vh;
+        }
+        h3 {
+            text-align: center;
+        }
 
         .worksContainer {
             position: relative;

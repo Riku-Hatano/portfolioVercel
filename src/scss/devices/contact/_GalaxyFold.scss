@@ -1,4 +1,5 @@
 .contact {
+    background-color: gainsboro;
     @include flexColumn;
     align-items: flex-start;
     row-gap: 4vh;

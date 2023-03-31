@@ -11,11 +11,15 @@ const Works = () => {
                         <img src={pic1} alt="pic1" />
                     </a>
                     <figcaption>
+                        <h3>Othello Application</h3>
                         <p>
-                            This is an othello application.
-                        </p> 
+                            Have you ever seen othello puzzle in SNS or something? 
+                        </p>
                         <p>
-                            Have you ever seen othello puzzle in SNS or something? If so and want to think seriously, this apps is very useful. This apps has an edit board mode. In this mode, we can place pieces as you want and start the game with specific situation.
+                            If so, and want to think seriously, this apps is very useful. 
+                        </p>
+                        <p>
+                            This apps has an edit board mode. In this mode, we can place pieces as you want and start the game with specific situation.
                         </p>
                         <p>
                             As far as I know, there are no free othello apps in AppStore for now. So, I hope this will help othello player who want to fix othello puzzle for free. 
@@ -27,9 +31,7 @@ const Works = () => {
                         <img src={pic1} alt="pic1" />
                     </a>
                     <figcaption>
-                        <p>
-                            This is an chess application.
-                        </p> 
+                        <h3>Chess Application</h3>
                         <p>
                             This apps hasn't have edit mode yet, but this mode will be comming soon. 
                         </p>

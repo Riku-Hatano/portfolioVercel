@@ -46,7 +46,9 @@ const About = () => {
                         <p>Let's look back on my life a little bit!</p>
                         <section className="eventContainer">
                             <article className="eventCell">
-                                <p>1999.08</p>
+                                <p>
+                                    <span>1999.08</span>
+                                </p>
                                 <div><span></span></div>
                                 <aside>
                                     <img src={pic1} alt="born" />
@@ -58,7 +60,7 @@ const About = () => {
                                 </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2006.04 ~</p>
+                                <p><span>2006.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -70,7 +72,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2012.04 ~</p>
+                                <p><span>2012.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -82,7 +84,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2015.04 ~</p>
+                                <p><span>2015.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -94,7 +96,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2018.04 ~</p>
+                                <p><span>2018.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -106,7 +108,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2018.04 ~</p>
+                                <p><span>2018.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -118,7 +120,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2021.09 ~</p>
+                                <p><span>2021.09 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -130,7 +132,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2021.04 ~</p>
+                                <p><span>2021.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -142,7 +144,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2022.10 ~</p>
+                                <p><span>2022.10 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
