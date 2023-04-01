@@ -356,3 +356,21 @@ footer {
     left: 25%; }
   .about .aboutSectionSecond .eventCell > aside p {
     width: 75%; } }
+
+@media (min-width: 540px) {
+  .about .aboutSectionFirst {
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .about .aboutSectionFirst > article {
+    width: 50%; }
+  .about .aboutSectionSecond .eventCell > p {
+    font-size: 18px; }
+  .about .aboutSectionSecond .eventCell > p > span {
+    top: calc(75px - 1vh); }
+  .about .aboutSectionSecond .eventCell > div span {
+    top: 75px; }
+  .about .aboutSectionSecond .eventCell > aside p {
+    font-size: 18px; }
+  .about .aboutSectionSecond .eventCell > aside img {
+    width: 150px;
+    height: 150px; } }
