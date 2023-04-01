@@ -50,7 +50,6 @@ footer {
 
 @media (min-width: 280px) {
   .about {
-    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +144,6 @@ footer {
     border-radius: 50%;
     border: 1vh solid #7c955d; }
   .contact {
-    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,7 +295,6 @@ footer {
   footer p {
     font-size: 14px; }
   .works {
-    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     justify-content: center;
