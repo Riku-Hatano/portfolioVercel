@@ -345,3 +345,14 @@ footer {
   .contact > form > article > input,
   .contact > form > textarea {
     font-size: 14px; } }
+
+@media (min-width: 414px) {
+  .about .aboutSectionSecond .eventCell > p {
+    width: 15vw; }
+  .about .aboutSectionSecond .eventCell > div {
+    left: 15vw;
+    width: calc(25% - 10vw); }
+  .about .aboutSectionSecond .eventCell > aside {
+    left: 25%; }
+  .about .aboutSectionSecond .eventCell > aside p {
+    width: 75%; } }
