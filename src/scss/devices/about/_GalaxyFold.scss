@@ -50,9 +50,11 @@
 
     .aboutSectionSecond {
         > article > h3,
-        > section > h3 {
+        > section > h3,
+        > section > p {
             margin-bottom: 2vh;
         }
+        
         .eventCell {
             position: relative;
             @include flexRow;
