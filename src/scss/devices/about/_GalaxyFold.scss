@@ -1,138 +1,17 @@
-// img {
-//     width: 100px;
-//     height: 100px;
-// }
-
-// .about {
-//     @include flexColumn;
-//     row-gap: 7vh;
-
-    // section, h2 {
-    //     width: 100%;
-    // }
-
-    // ul {
-    //     @include flexColumn;
-    //     justify-content: flex-start;
-    //     row-gap: .5vh;
-    // }
-
-    // li {
-    //     text-align: left;
-    //     width: 100%;
-    //     list-style-type: disc;
-    //     list-style-position: inside;
-    // }
-
-    // h3 {
-    //     margin-bottom: 1vh;
-    // }
-
-    // h4 {
-    //     margin-bottom: 2vh;
-    // }
-
-//     .aboutSectionFirst {
-//         @include flexColumn;
-//         justify-content: flex-start;
-//         row-gap: 1.5vh;
-
-//         > article {
-//             width: 100%;
-//         }
-//     }
-
-//     .aboutSectionSecond {
-//         @include flexColumn;
-//         row-gap: 1.5vh;
-
-//         > section > section {
-//             @include flexRow;
-//         }
-
-//         .chTable {
-//             border-right: 6px solid $defaultColorBlack;
-//             padding-right: 1vh;
-
-//             .chEvent {
-//                 height: 35vh;
-//                 padding-top: 5vh;
-//             }
-
-//             p {
-//                 font-size: 14px;
-//             }
-//         }
-
-//         .chPictures {
-//             display: flex;
-//             flex-direction: column;
-//             align-items: center;
-
-//             .chEvent {
-//                 @include flexRow;
-//                 align-items: flex-start;
-//                 justify-content: left;
-//                 width: 100%;
-//                 height: 40vh;
-
-//                 > aside {
-//                     @include flexColumn;
-//                     row-gap: 1vh;
-//                     align-items: flex-start;
-//                     width: calc(100% - 2vh);
-
-//                     p {
-//                         text-align: left;
-//                         font-size: 12px;
-//                     }
-//                 }
-
-//                 > div {
-//                     width: 3vh;
-//                     height: 100%;
-//                     display: flex;
-
-//                     > span {
-//                         height: 1vh;
-//                         width: 3vh;
-//                         margin-top: calc(56px - 1vh);
-//                         // margin-top: 8vh;
-//                         background-color: $defaultColorBlack;
-//                     }
-//                 }
-//             }
-//         }
-
-//         .chEvent {
-//             @include flexColumn;
-//             justify-content: left;
-
-//             p {
-//                 text-align: center;
-//             }
-
-//             img {
-//                 border-radius: 50%;
-//                 border: 6px solid $defaultColorBlack;
-//             }
-
-//         }
-//     }
-// }
-
 .about {
     background-color: gainsboro;
     @include flexColumn;
-    row-gap: 7vh;
+    row-gap: 20vh;
 
     .aboutSectionFirst,
     .aboutSectionSecond {
         @include flexColumn;
-        row-gap: 3vh;
+        row-gap: 6vh;
     }
     
-    section, h2 {
+    section,
+    li,
+    span {
         width: 100%;
     }
 
@@ -149,7 +28,6 @@
 
     li {
         text-align: left;
-        width: 100%;
         list-style-type: disc;
         list-style-position: inside;
     }
@@ -195,7 +73,6 @@
                     top: calc(50px - 1vh);
                     left: 0;
                     @include flexRow;
-                    width: 100%;
                 }
             }
 
@@ -210,7 +87,6 @@
                     top: 50px;
                     display: flex;
                     position: inherit;
-                    width: 100%;
                     height: 1vh;
                     background-color: $defaultColorBlack;
                 }
@@ -238,5 +114,4 @@
             }
         }
     }
-
 }

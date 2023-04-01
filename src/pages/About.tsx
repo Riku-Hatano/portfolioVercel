@@ -6,8 +6,8 @@ const About = () => {
         <>
             <section className="about">
                 <section className="aboutSectionFirst">
-                    <h2>skills</h2>
                     <article>
+                        <h1>skills</h1>
                         <h3>front end</h3>
                         <ul>
                             <li>JavaScript / TypeScript</li>
@@ -34,8 +34,8 @@ const About = () => {
                     </article>
                 </section>
                 <section className="aboutSectionSecond">
-                    <h2>about me</h2>
                     <article>
+                        <h1>about me</h1>
                         <h3>self introduction</h3>
                         <p>
                             Hi! I'm Riku Hatano, from Japan! I have learned web development in Tamwood Careers for six months and before joinning Tamwood, I have studied this field for five months.

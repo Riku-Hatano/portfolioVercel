@@ -6,7 +6,6 @@
     > figure {
         @include flexColumn;
         row-gap: 4vh;
-        padding-bottom: 10vh;
 
         > figcaption {
             @include flexColumn;
@@ -29,6 +28,10 @@
                 height: 100%
             }
         }
+    }
+
+    figure:nth-child(2) { //first child is <h1>works</h1>
+        padding-bottom: 10vh;
     }
 }
 
