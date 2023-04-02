@@ -26,6 +26,20 @@ const Nav = () => {
                         </li>
                     </ul>
                 </details>
+                <ul>
+                    <li>
+                        <Link to="/">home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">about</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">contact</Link>
+                    </li>
+                    <li>
+                        <Link to="/works">works</Link>
+                    </li>
+                </ul>
                 <h2>Riku's portfolio</h2>
             </nav>
         </>

@@ -1,0 +1,46 @@
+header {
+    details {
+        display: none;
+    }
+    nav {
+        > h2 {
+            width: 25%;
+        }
+
+        > ul {
+            @include flexRow;
+            width: 45%;
+            height: 7vh;
+
+            > li {
+                display: flex;
+                justify-content: center;
+            }
+
+            a {
+                @include blocklizeInline;
+                border-bottom: 0px none transparent;
+                transition: .4s;
+                width: 100%;
+                height: 7vh;
+                padding: 0;
+            }
+
+            a:hover {
+                background-color: $defaultColorWhite;
+                color: $defaultColorBlack;
+            }
+        }
+    }
+}
+
+footer {
+    a {
+        transition: .4s;
+        font-size: 30px;
+    }
+    a:hover {
+        background-color: $defaultColorWhite;
+        color: $defaultColorBlack;
+    }
+}
