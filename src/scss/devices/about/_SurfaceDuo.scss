@@ -1,0 +1,39 @@
+.about {
+    .aboutSectionFirst {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        > article {
+            width: 50%;
+        }
+    }
+
+    .aboutSectionSecond {
+        .eventCell {
+            > p {
+                font-size: 18px;
+
+                > span {
+                    top: calc(75px - 1vh);
+                }
+            }
+
+            > div {
+                span {
+                    top: 75px;
+                }
+            }
+    
+            > aside {
+                p {
+                    font-size: 18px;
+                }
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}

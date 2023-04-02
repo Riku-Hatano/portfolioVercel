@@ -6,36 +6,42 @@ const About = () => {
         <>
             <section className="about">
                 <section className="aboutSectionFirst">
-                    <h2>skills</h2>
                     <article>
-                        <h3>front end</h3>
-                        <ul>
-                            <li>JavaScript / TypeScript</li>
-                            <li>React.js / React.ts</li>
-                            <li>Vue.js</li>
-                            <li>jQuery</li>
-                            <li>UX/UI design</li>
-                        </ul>
+                        <h1>skills</h1>
+                        <aside>
+                            <h3>front end</h3>
+                            <ul>
+                                <li>JavaScript / TypeScript</li>
+                                <li>React.js / React.ts</li>
+                                <li>Vue.js</li>
+                                <li>jQuery</li>
+                                <li>UX/UI design</li>
+                            </ul>
+                        </aside>
                     </article>
                     <article>
-                        <h3>back end</h3>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                        </ul>
+                        <aside>
+                            <h3>back end</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </aside>
                     </article>
                     <article>
-                        <h3>dev ops</h3>
-                        <ul>
-                            <li>Git / GitHub</li>
-                            <li>Figma</li>
-                        </ul>
+                        <aside>
+                            <h3>dev ops</h3>
+                            <ul>
+                                <li>Git / GitHub</li>
+                                <li>Figma</li>
+                            </ul>
+                        </aside>
                     </article>
                 </section>
                 <section className="aboutSectionSecond">
-                    <h2>about me</h2>
                     <article>
+                        <h1>about me</h1>
                         <h3>self introduction</h3>
                         <p>
                             Hi! I'm Riku Hatano, from Japan! I have learned web development in Tamwood Careers for six months and before joinning Tamwood, I have studied this field for five months.
@@ -46,7 +52,9 @@ const About = () => {
                         <p>Let's look back on my life a little bit!</p>
                         <section className="eventContainer">
                             <article className="eventCell">
-                                <p>1999.08</p>
+                                <p>
+                                    <span>1999.08</span>
+                                </p>
                                 <div><span></span></div>
                                 <aside>
                                     <img src={pic1} alt="born" />
@@ -58,7 +66,7 @@ const About = () => {
                                 </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2006.04 ~</p>
+                                <p><span>2006.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -70,7 +78,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2012.04 ~</p>
+                                <p><span>2012.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -82,7 +90,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2015.04 ~</p>
+                                <p><span>2015.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -94,7 +102,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2018.04 ~</p>
+                                <p><span>2018.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -106,7 +114,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2018.04 ~</p>
+                                <p><span>2018.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -118,7 +126,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2021.09 ~</p>
+                                <p><span>2021.09 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -130,7 +138,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2021.04 ~</p>
+                                <p><span>2021.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />
@@ -142,7 +150,7 @@ const About = () => {
                                     </aside>
                             </article>
                             <article className="eventCell">
-                                <p>2022.10 ~</p>
+                                <p><span>2022.10 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
                                         <img src={pic1} alt="born" />

@@ -16,6 +16,13 @@ const Main = () => {
                     <Route path="/" element={
                         <>
                             <Header />
+                            {/* <div className="riku">
+                                <section className="testContainer">
+                                    <article className="circle">
+                                    <article className="mouse"></article>
+                                    </article>
+                                </section>
+                            </div> */}
                             <main>
                                 <Home /> 
                             </main>

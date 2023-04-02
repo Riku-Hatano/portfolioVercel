@@ -1,11 +1,18 @@
 .works {
     @include flexColumn;
     align-items: flex-start;
-    row-gap: 5vh;
 
-    > figure {
+    figure {
         @include flexColumn;
-        row-gap: 2vh;
+        row-gap: 4vh;
+
+        > figcaption {
+            @include flexColumn;
+            row-gap: 2vh;
+        }
+        h3 {
+            text-align: center;
+        }
 
         .worksContainer {
             position: relative;
@@ -20,6 +27,10 @@
                 height: 100%
             }
         }
+    }
+
+    figure:nth-child(2) { //first child is <h1>works</h1>
+        padding-bottom: 10vh;
     }
 }
 

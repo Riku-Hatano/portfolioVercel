@@ -1,0 +1,25 @@
+.about {
+    .aboutSectionSecond {
+        .eventCell {
+            > p {
+                // width: 71px;
+                width: 15vw;
+            }
+
+            > div {
+                // left: 71px;
+                // width: calc(25% - 71px);
+                left: 15vw;
+                width: calc(25% - 10vw);
+            }
+
+            > aside {
+                left : 25%;
+
+                p {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}

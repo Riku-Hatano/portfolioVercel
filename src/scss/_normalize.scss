@@ -20,6 +20,11 @@ li {
     color: dimgray;
 }
 
+h1 {
+    font-size: 1.5em;
+    padding-bottom: 2vh;
+}
+
 a {
     text-decoration: none;
 }
@@ -45,22 +50,27 @@ header {
 main {
     background-color: $defaultColorWhite;
     overflow: hidden;
-    padding: 5%;
+    // padding: 5%;
 }
 
 footer {
     background-color: $defaultColorBlack;
 }
 
+
+
+
+
+
+
+//this is just for fun
 // @keyframes slidein {
 //     from {
 //       transform: translateX(-40px);
-//     //   background-color: khaki;
 //     }
   
 //     to {
 //       transform: translateX(calc(100%));
-//     //   background-color: red;
 //     }
 //   }
 
