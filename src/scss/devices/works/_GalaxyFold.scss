@@ -1,0 +1,42 @@
+.works {
+    @include flexColumn;
+    align-items: flex-start;
+
+    figure {
+        @include flexColumn;
+        row-gap: 4vh;
+
+        > figcaption {
+            @include flexColumn;
+            row-gap: 2vh;
+        }
+        h3 {
+            text-align: center;
+        }
+
+        .worksContainer {
+            position: relative;
+            padding-bottom: 60%;
+            width: 100%;
+            display: flex;
+
+            > img {
+                position: absolute;
+                z-index: 0;
+                width: 100%;
+                height: 100%
+            }
+        }
+    }
+
+    figure:nth-child(2) { //first child is <h1>works</h1>
+        padding-bottom: 10vh;
+    }
+}
+
+
+
+
+
+
+

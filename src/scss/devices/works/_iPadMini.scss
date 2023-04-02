@@ -1,0 +1,16 @@
+.works {
+    > section {
+        @include flexRow;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        > figure {
+            width: 48%;
+        }
+    }
+
+    figure:nth-child(2) { //first child is <h1>works</h1>
+        padding-bottom: 0;
+    }
+}

@@ -6,16 +6,11 @@ import Contact from "./Contact";
 const Home = () => {
     return (
         <>
-            <main className="home">
-                {/* <section className="testContainer">
-                    <article className="circle">
-                        <article className="mouse"></article>
-                    </article>
-                </section> */}
+            <section className="home">
                 <About />
                 <Works />
                 <Contact />
-            </main>
+            </section>
         </>
     )
 }

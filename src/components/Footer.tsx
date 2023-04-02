@@ -8,22 +8,22 @@ const Footer = () => {
         <footer>
             <ul>
                 <li>
-                    <a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!">
+                    <a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!" target="_blank">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/riku.kuri1234">
+                    <a href="https://www.instagram.com/riku.kuri1234" target="_blank">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Riku-Hatano">
+                    <a href="https://github.com/Riku-Hatano" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Riku-Hatano">
+                    <a href="https://github.com/Riku-Hatano" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                 </li>
