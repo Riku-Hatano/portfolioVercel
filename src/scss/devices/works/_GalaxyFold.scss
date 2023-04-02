@@ -2,7 +2,7 @@
     @include flexColumn;
     align-items: flex-start;
 
-    > figure {
+    figure {
         @include flexColumn;
         row-gap: 4vh;
 

@@ -7,11 +7,6 @@ const Home = () => {
     return (
         <>
             <section className="home">
-                {/* <section className="testContainer">
-                    <article className="circle">
-                        <article className="mouse"></article>
-                    </article>
-                </section> */}
                 <About />
                 <Works />
                 <Contact />

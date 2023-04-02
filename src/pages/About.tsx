@@ -8,29 +8,35 @@ const About = () => {
                 <section className="aboutSectionFirst">
                     <article>
                         <h1>skills</h1>
-                        <h3>front end</h3>
-                        <ul>
-                            <li>JavaScript / TypeScript</li>
-                            <li>React.js / React.ts</li>
-                            <li>Vue.js</li>
-                            <li>jQuery</li>
-                            <li>UX/UI design</li>
-                        </ul>
+                        <aside>
+                            <h3>front end</h3>
+                            <ul>
+                                <li>JavaScript / TypeScript</li>
+                                <li>React.js / React.ts</li>
+                                <li>Vue.js</li>
+                                <li>jQuery</li>
+                                <li>UX/UI design</li>
+                            </ul>
+                        </aside>
                     </article>
                     <article>
-                        <h3>back end</h3>
-                        <ul>
-                            <li>Node.js</li>
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                        </ul>
+                        <aside>
+                            <h3>back end</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </aside>
                     </article>
                     <article>
-                        <h3>dev ops</h3>
-                        <ul>
-                            <li>Git / GitHub</li>
-                            <li>Figma</li>
-                        </ul>
+                        <aside>
+                            <h3>dev ops</h3>
+                            <ul>
+                                <li>Git / GitHub</li>
+                                <li>Figma</li>
+                            </ul>
+                        </aside>
                     </article>
                 </section>
                 <section className="aboutSectionSecond">

@@ -42,8 +42,7 @@ header {
 
 main {
   background-color: #eeeed5;
-  overflow: hidden;
-  padding: 5%; }
+  overflow: hidden; }
 
 footer {
   background-color: #7c955d; }
@@ -237,6 +236,8 @@ footer {
     width: 5vh;
     height: 7vh;
     border-bottom: 1px solid #eeeed5; }
+  header nav summary a {
+    color: red; }
   header nav ul {
     display: flex;
     flex-direction: column;
@@ -253,6 +254,8 @@ footer {
     padding-bottom: 1vh;
     padding-left: 5%;
     border-bottom: 1px solid #eeeed5; }
+  main {
+    padding: 5%; }
   .bar {
     font-size: 30px; }
   .home {
@@ -261,6 +264,10 @@ footer {
     justify-content: center;
     align-items: center;
     row-gap: 20vh; }
+  .riku {
+    width: 100%;
+    height: 100vh;
+    background-color: teal; }
   footer {
     display: flex;
     flex-direction: column;
@@ -300,26 +307,26 @@ footer {
     justify-content: center;
     align-items: center;
     align-items: flex-start; }
-  .works > figure {
+  .works figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 4vh; }
-  .works > figure > figcaption {
+  .works figure > figcaption {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 2vh; }
-  .works > figure h3 {
+  .works figure h3 {
     text-align: center; }
-  .works > figure .worksContainer {
+  .works figure .worksContainer {
     position: relative;
     padding-bottom: 60%;
     width: 100%;
     display: flex; }
-  .works > figure .worksContainer > img {
+  .works figure .worksContainer > img {
     position: absolute;
     z-index: 0;
     width: 100%;
@@ -374,3 +381,36 @@ footer {
   .about .aboutSectionSecond .eventCell > aside img {
     width: 150px;
     height: 150px; } }
+
+@media (min-width: 768px) {
+  .about {
+    row-gap: 10vh; }
+  .about .aboutSectionFirst > article {
+    position: relative;
+    width: 33%;
+    height: 25vh; }
+  .about .aboutSectionFirst > article h1, .about .aboutSectionFirst > article h3,
+  .about .aboutSectionFirst > article ul {
+    width: 100%; }
+  .about .aboutSectionFirst > article > aside {
+    position: absolute;
+    top: 7vh; }
+  main {
+    padding: 2%; }
+  .bar img {
+    width: 50px;
+    height: 50px; }
+  .home {
+    row-gap: 15vh; }
+  .works > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+  .works > section > figure {
+    width: 48%; }
+  .works figure:nth-child(2) {
+    padding-bottom: 0; } }
