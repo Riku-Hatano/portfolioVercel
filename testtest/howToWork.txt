@@ -1,0 +1,5 @@
+1. In terminal type "npx create-react-app my-app --template typescript" to create projecject.
+2. Delete src and create new one to initialize project.
+3. Create App.tsx and index.tsx in src folder. In App.tsx, concrete project will be written.
+4. In terminal type "npm install @types/three" to work with three.
+5. Copy and paste the content of App.tsx and you will see green 3D box rotating on black background.
