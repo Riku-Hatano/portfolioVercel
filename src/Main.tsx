@@ -7,8 +7,12 @@ import Works from "./pages/Works";
 import Nopage from "./pages/Nopage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Welcome from "./components/Welcome";
+import { faBackspace } from "@fortawesome/free-solid-svg-icons";
 
 const Main = () => {
+    const width = "100vw";
+    const height = "100vh";
     return (
         <>
             <BrowserRouter>
@@ -16,13 +20,7 @@ const Main = () => {
                     <Route path="/" element={
                         <>
                             <Header />
-                            {/* <div className="riku">
-                                <section className="testContainer">
-                                    <article className="circle">
-                                    <article className="mouse"></article>
-                                    </article>
-                                </section>
-                            </div> */}
+                            <Welcome />
                             <main>
                                 <Home /> 
                             </main>

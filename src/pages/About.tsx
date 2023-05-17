@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import pic1 from "../assets/imgs/pic1.jpeg";
+import ScrollReveal from "scrollreveal";
 
 const About = () => {
+    useEffect(() => {
+        ScrollReveal().reveal(".box", { 
+            duration: 800, // アニメーションの完了にかかる時間
+            viewFactor: 0.1, // 0~1,どれくらい見えたら実行するか
+            reset: true   // 何回もアニメーション表示するか
+        });
+        ScrollReveal().reveal(".eventCell", { 
+            duration: 800, // アニメーションの完了にかかる時間
+            viewFactor: 0.01, // 0~1,どれくらい見えたら実行するか
+            reset: true   // 何回もアニメーション表示するか
+        });
+    }, [])
     return (
         <>
             <section className="about">
-                <section className="aboutSectionFirst">
+                <section className="aboutSectionFirst box">
                     <article>
                         <h1>skills</h1>
                         <aside>
@@ -39,7 +52,7 @@ const About = () => {
                         </aside>
                     </article>
                 </section>
-                <section className="aboutSectionSecond">
+                <section className="aboutSectionSecond box">
                     <article>
                         <h1>about me</h1>
                         <h3>self introduction</h3>
@@ -60,22 +73,81 @@ const About = () => {
                                     <img src={pic1} alt="born" />
                                     <figcaption>
                                         <p>
-                                            Born in Niigata prefecture, located on north of Tokyo.
+                                            Born in Niigata prefecture, located on north of Tokyo. I was too mischievous and oftern do stupid things to stranger though, I don't remember anything.
                                         </p>
                                     </figcaption>
                                 </aside>
                             </article>
                             <article className="eventCell">
+                                <p>
+                                    <span>2003~2015</span>
+                                </p>
+                                <div><span></span></div>
+                                <aside>
+                                    <img src={pic1} alt="born" />
+                                    <figcaption>
+                                        <p>
+                                            Moved to Chiba prefecture close to Tokyo. And I have played soccer for full of 13 years without studying. 
+                                        </p>
+                                    </figcaption>
+                                </aside>
+                            </article>
+                            <article className="eventCell">
+                                <p>
+                                    <span>2015~2018</span>
+                                </p>
+                                <div><span></span></div>
+                                <aside>
+                                    <img src={pic1} alt="born" />
+                                    <figcaption>
+                                        <p>
+                                            Instead of soccer, I started to play badminton as club activity. But one year later, because of asthma, I quit to play.
+                                        </p>
+                                    </figcaption>
+                                </aside>
+                            </article>
+                            <article className="eventCell">
+                                <p>
+                                    <span>2018~2021</span>
+                                </p>
+                                <div><span></span></div>
+                                <aside>
+                                    <img src={pic1} alt="born" />
+                                    <figcaption>
+                                        <p>
+                                            In university, I have learned Economics. Actually I enjoyed leaning though, I was interested in programming.
+                                        </p>
+                                        <p>
+                                            When COVID happened and forced to be inside of house, I touched JavaScript for the first time. 
+                                        </p>
+                                    </figcaption>
+                                </aside>
+                            </article>
+                            <article className="eventCell">
+                                <p>
+                                    <span>2022~now</span>
+                                </p>
+                                <div><span></span></div>
+                                <aside>
+                                    <img src={pic1} alt="born" />
+                                    <figcaption>
+                                        <p>
+                                            I have been to Dubai to study English and Vancouver to learn WebDevelopment. 
+                                        </p>
+                                    </figcaption>
+                                </aside>
+                            </article>
+                            {/* <article className="eventCell">
                                 <p><span>2006.04 ~</span></p>
                                 <div><span></span></div>
                                 <aside>
-                                        <img src={pic1} alt="born" />
-                                        <figcaption>
-                                            <p>
-                                                Without studying, I just played soccer and game a lot especially Pokemon.
-                                            </p>
-                                        </figcaption>
-                                    </aside>
+                                    <img src={pic1} alt="born" />
+                                    <figcaption>
+                                        <p>
+                                            Without studying, I just played soccer and game a lot especially Pokemon.
+                                        </p>
+                                    </figcaption>
+                                </aside>
                             </article>
                             <article className="eventCell">
                                 <p><span>2012.04 ~</span></p>
@@ -160,7 +232,7 @@ const About = () => {
                                             </p>
                                         </figcaption>
                                     </aside>
-                            </article>
+                            </article> */}
                         </section>
                     </section>
                 </section>
