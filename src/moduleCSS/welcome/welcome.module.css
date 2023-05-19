@@ -1,9 +1,17 @@
 .welcome {
-    background-color: gainsboro;
-    width: 100vw;
-    height: 100vh;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeed5;
+  width: 100vw;
+  height: 100vh; }
 
-.tomypage {
-    color: red;
-}
+.h1 {
+  margin-bottom: 2vh;
+  text-align: center;
+  width: 100%; }
+
+.p {
+  text-align: center;
+  width: 80%; }

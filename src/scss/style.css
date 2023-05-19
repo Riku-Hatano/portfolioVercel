@@ -34,7 +34,7 @@ li {
   list-style-type: none; }
 
 nav {
-  background-color: #7c955d; }
+  background-color: rgba(124, 149, 93, 0.8); }
 
 header {
   background-color: #eeeed5;
@@ -54,94 +54,94 @@ footer {
     justify-content: center;
     align-items: center;
     row-gap: 20vh; }
-    .about .aboutSectionFirst,
-    .about .aboutSectionSecond {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      row-gap: 6vh; }
-    .about section,
-    .about li,
-    .about span {
-      width: 100%; }
-    .about img {
-      width: 100px;
-      height: 100px; }
-    .about ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      justify-content: flex-start;
-      row-gap: .5vh; }
-    .about li {
-      text-align: left;
-      list-style-type: disc;
-      list-style-position: inside; }
-    .about h3 {
-      margin-bottom: 1vh; }
-    .about h4 {
-      margin-bottom: 2vh; }
-    .about .aboutSectionFirst {
-      justify-content: flex-start; }
-      .about .aboutSectionFirst > article {
-        width: 100%; }
-    .about .aboutSectionSecond > article > h3,
-    .about .aboutSectionSecond > section > h3,
-    .about .aboutSectionSecond > section > p {
-      margin-bottom: 2vh; }
-    .about .aboutSectionSecond .eventCell {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding-bottom: 4vh; }
-      .about .aboutSectionSecond .eventCell > p {
-        position: absolute;
-        top: 0px;
-        left: 0;
-        min-height: 100%;
-        width: 10vh;
-        font-size: 14px;
-        text-align: center;
-        border-right: 1vh solid #7c955d; }
-        .about .aboutSectionSecond .eventCell > p > span {
-          position: inherit;
-          top: calc(50px - 1vh);
-          left: 0;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center; }
-      .about .aboutSectionSecond .eventCell > div {
-        position: absolute;
-        top: 0;
-        left: 11vh;
-        height: 100%;
-        width: calc(30% - 11vh); }
-        .about .aboutSectionSecond .eventCell > div > span {
-          top: 50px;
-          display: flex;
-          position: inherit;
-          height: 1vh;
-          background-color: #7c955d; }
-      .about .aboutSectionSecond .eventCell > aside {
-        position: relative;
-        top: 0;
-        left: 30%;
-        width: 100%;
-        width: 100%; }
-        .about .aboutSectionSecond .eventCell > aside p {
-          width: 60%;
-          padding: 1.5vh;
-          font-size: 14px; }
-        .about .aboutSectionSecond .eventCell > aside img {
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
-          border: 1vh solid #7c955d; }
+  .about .aboutSectionFirst,
+  .about .aboutSectionSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6vh; }
+  .about section,
+  .about li,
+  .about span {
+    width: 100%; }
+  .about img {
+    width: 100px;
+    height: 100px; }
+  .about ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: .5vh; }
+  .about li {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside; }
+  .about h3 {
+    margin-bottom: 1vh; }
+  .about h4 {
+    margin-bottom: 2vh; }
+  .about .aboutSectionFirst {
+    justify-content: flex-start; }
+  .about .aboutSectionFirst > article {
+    width: 100%; }
+  .about .aboutSectionSecond > article > h3,
+  .about .aboutSectionSecond > section > h3,
+  .about .aboutSectionSecond > section > p {
+    margin-bottom: 2vh; }
+  .about .aboutSectionSecond .eventCell {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4vh; }
+  .about .aboutSectionSecond .eventCell > p {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    min-height: 100%;
+    width: 10vh;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1vh solid #7c955d; }
+  .about .aboutSectionSecond .eventCell > p > span {
+    position: inherit;
+    top: calc(50px - 1vh);
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .about .aboutSectionSecond .eventCell > div {
+    position: absolute;
+    top: 0;
+    left: 11vh;
+    height: 100%;
+    width: calc(30% - 11vh); }
+  .about .aboutSectionSecond .eventCell > div > span {
+    top: 50px;
+    display: flex;
+    position: inherit;
+    height: 1vh;
+    background-color: #7c955d; }
+  .about .aboutSectionSecond .eventCell > aside {
+    position: relative;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    width: 100%; }
+  .about .aboutSectionSecond .eventCell > aside p {
+    width: 60%;
+    padding: 1.5vh;
+    font-size: 14px; }
+  .about .aboutSectionSecond .eventCell > aside img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1vh solid #7c955d; }
   .contact {
     display: flex;
     flex-direction: column;
@@ -149,108 +149,108 @@ footer {
     align-items: center;
     align-items: flex-start;
     row-gap: 4vh; }
-    .contact > h1,
-    .contact > p,
-    .contact > section,
-    .contact > form,
-    .contact textarea {
-      width: 100%; }
-    .contact ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      align-items: flex-start;
-      row-gap: 1vh; }
-    .contact > form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      align-items: flex-start;
-      row-gap: 1vh; }
-      .contact > form input, .contact > form textarea {
-        border: 2px solid #7c955d;
-        background-color: #eeeed5; }
-      .contact > form > article {
-        display: flex;
-        justify-content: space-between;
-        width: 100%; }
-        .contact > form > article > input {
-          width: 41%;
-          padding: 1vh; }
-      .contact > form > textarea {
-        padding: 1vh;
-        box-sizing: border-box;
-        height: 20vh; }
-      .contact > form > button {
-        padding: 1vh;
-        border: 0px none transparent;
-        background-color: #7c955d;
-        color: #eeeed5; }
+  .contact > h1,
+  .contact > p,
+  .contact > section,
+  .contact > form,
+  .contact textarea {
+    width: 100%; }
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    row-gap: 1vh; }
+  .contact > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    row-gap: 1vh; }
+  .contact > form input, .contact > form textarea {
+    border: 2px solid #7c955d;
+    background-color: #eeeed5; }
+  .contact > form > article {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .contact > form > article > input {
+    width: 41%;
+    padding: 1vh; }
+  .contact > form > textarea {
+    padding: 1vh;
+    box-sizing: border-box;
+    height: 20vh; }
+  .contact > form > button {
+    padding: 1vh;
+    border: 0px none transparent;
+    background-color: #7c955d;
+    color: #eeeed5; }
   header {
     position: relative;
     height: 7vh;
     width: 100%; }
-    header h2 {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 5vh;
-      width: calc(100% - 5vh);
-      height: 7vh;
-      border-bottom: 1px solid #eeeed5; }
-    header nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      justify-content: right;
-      position: fixed;
-      z-index: 99;
-      width: 100%; }
-      header nav details,
-      header nav ul,
-      header nav li,
-      header nav a {
-        width: 100%; }
-      header nav summary::-webkit-details-marker {
-        display: none; }
-      header nav a,
-      header nav summary,
-      header nav h2 {
-        color: #eeeed5; }
-      header nav summary {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        list-style-type: none;
-        width: 5vh;
-        height: 7vh;
-        border-bottom: 1px solid #eeeed5; }
-      header nav > ul {
-        display: none; }
-      header nav > details > ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-items: flex-start; }
-      header nav a {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        justify-content: left;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        padding-left: 5%;
-        border-bottom: 1px solid #eeeed5; }
+  header h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 5vh;
+    width: calc(100% - 5vh);
+    height: 7vh;
+    border-bottom: 1px solid #eeeed5; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    z-index: 99;
+    width: 100%; }
+  header nav details,
+  header nav ul,
+  header nav li,
+  header nav a {
+    width: 100%; }
+  header nav summary::-webkit-details-marker {
+    display: none; }
+  header nav a,
+  header nav summary,
+  header nav h2 {
+    color: #eeeed5; }
+  header nav summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    list-style-type: none;
+    width: 5vh;
+    height: 7vh;
+    border-bottom: 1px solid #eeeed5; }
+  header nav > ul {
+    display: none; }
+  header nav > details > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start; }
+  header nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5%;
+    border-bottom: 1px solid #eeeed5; }
   main {
     padding: 5%; }
   .bar {
@@ -272,62 +272,62 @@ footer {
     align-items: center;
     row-gap: 2vh;
     height: 12vh; }
-    footer p,
-    footer a {
-      color: #eeeed5; }
-    footer ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-between;
-      width: 60%;
-      height: 5vh; }
-    footer li {
-      display: flex;
-      justify-content: center;
-      width: 100%; }
-    footer a {
-      display: flex;
-      justify-content: center;
-      font-size: 60px;
-      height: 100%;
-      padding: 2vh;
-      border-radius: 50%; }
-    footer p {
-      font-size: 14px; }
+  footer p,
+  footer a {
+    color: #eeeed5; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 5vh; }
+  footer li {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  footer a {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    height: 100%;
+    padding: 2vh;
+    border-radius: 50%; }
+  footer p {
+    font-size: 14px; }
   .works {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-items: flex-start; }
-    .works figure {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      row-gap: 4vh; }
-      .works figure > figcaption {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 2vh; }
-      .works figure h3 {
-        text-align: center; }
-      .works figure .worksContainer {
-        position: relative;
-        padding-bottom: 60%;
-        width: 100%;
-        display: flex; }
-        .works figure .worksContainer > img {
-          position: absolute;
-          z-index: 0;
-          width: 100%;
-          height: 100%; }
-    .works figure:nth-child(2) {
-      padding-bottom: 10vh; } }
+  .works figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4vh; }
+  .works figure > figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh; }
+  .works figure h3 {
+    text-align: center; }
+  .works figure .worksContainer {
+    position: relative;
+    padding-bottom: 60%;
+    width: 100%;
+    display: flex; }
+  .works figure .worksContainer > img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%; }
+  .works figure:nth-child(2) {
+    padding-bottom: 10vh; } }
 
 @media (min-width: 360px) {
   .about .aboutSectionSecond .eventCell > aside p {
@@ -358,19 +358,19 @@ footer {
     width: calc(25% - 10vw); }
   .about .aboutSectionSecond .eventCell > aside {
     left: 25%; }
-    .about .aboutSectionSecond .eventCell > aside p {
-      width: 75%; } }
+  .about .aboutSectionSecond .eventCell > aside p {
+    width: 75%; } }
 
 @media (min-width: 540px) {
   .about .aboutSectionFirst {
     flex-wrap: wrap;
     flex-direction: row; }
-    .about .aboutSectionFirst > article {
-      width: 50%; }
+  .about .aboutSectionFirst > article {
+    width: 50%; }
   .about .aboutSectionSecond .eventCell > p {
     font-size: 18px; }
-    .about .aboutSectionSecond .eventCell > p > span {
-      top: calc(75px - 1vh); }
+  .about .aboutSectionSecond .eventCell > p > span {
+    top: calc(75px - 1vh); }
   .about .aboutSectionSecond .eventCell > div span {
     top: 75px; }
   .about .aboutSectionSecond .eventCell > aside p {
@@ -386,29 +386,29 @@ footer {
     width: 45%; }
   footer {
     height: 30vh; }
-    footer ul {
-      width: 75%;
-      margin-bottom: 4vh; }
-    footer svg {
-      width: 30px;
-      height: 30px; } }
+  footer ul {
+    width: 75%;
+    margin-bottom: 4vh; }
+  footer svg {
+    width: 30px;
+    height: 30px; } }
 
 @media (min-width: 768px) {
   .about {
     row-gap: 20vh; }
-    .about .aboutSectionFirst > article {
-      position: relative;
-      width: 33%;
-      height: 25vh; }
-      .about .aboutSectionFirst > article h1, .about .aboutSectionFirst > article h3,
-      .about .aboutSectionFirst > article ul {
-        width: 100%; }
-      .about .aboutSectionFirst > article > aside {
-        position: absolute;
-        top: 7vh; }
+  .about .aboutSectionFirst > article {
+    position: relative;
+    width: 33%;
+    height: 25vh; }
+  .about .aboutSectionFirst > article h1, .about .aboutSectionFirst > article h3,
+  .about .aboutSectionFirst > article ul {
+    width: 100%; }
+  .about .aboutSectionFirst > article > aside {
+    position: absolute;
+    top: 7vh; }
   header svg {
-    width: 26vh;
-    height: 26vh; }
+    height: 26vh;
+    width: 26vh; }
   .bar img {
     width: 50px;
     height: 50px; }
@@ -422,8 +422,8 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap; }
-    .works > section > figure {
-      width: 48%; }
+  .works > section > figure {
+    width: 48%; }
   .works figure:nth-child(2) {
     padding-bottom: 0; } }
 
@@ -439,21 +439,21 @@ footer {
     align-items: center;
     width: 45%;
     height: 7vh; }
-    header nav > ul > li {
-      display: flex;
-      justify-content: center; }
-    header nav > ul a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-bottom: 0px none transparent;
-      transition: .4s;
-      width: 100%;
-      height: 7vh;
-      padding: 0; }
-    header nav > ul a:hover {
-      background-color: #eeeed5;
-      color: #7c955d; }
+  header nav > ul > li {
+    display: flex;
+    justify-content: center; }
+  header nav > ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0px none transparent;
+    transition: .4s;
+    width: 100%;
+    height: 7vh;
+    padding: 0; }
+  header nav > ul a:hover {
+    background-color: #eeeed5;
+    color: #7c955d; }
   footer a {
     transition: .4s;
     font-size: 30px; }

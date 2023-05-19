@@ -39,7 +39,8 @@ li {
 }
 
 nav {
-    background-color: $defaultColorBlack;
+    // background-color: $defaultColorBlack;
+    background-color: rgba($defaultColorBlack, 0.8);
 }
 
 header {

@@ -4,15 +4,15 @@ import ScrollReveal from "scrollreveal";
 
 const About = () => {
     useEffect(() => {
-        ScrollReveal().reveal(".box", { 
-            duration: 800, // アニメーションの完了にかかる時間
-            viewFactor: 0.1, // 0~1,どれくらい見えたら実行するか
-            reset: true   // 何回もアニメーション表示するか
+        ScrollReveal().reveal(".box", {
+            duration: 800,
+            viewFactor: 0.1,
+            reset: true
         });
-        ScrollReveal().reveal(".eventCell", { 
-            duration: 800, // アニメーションの完了にかかる時間
-            viewFactor: 0.01, // 0~1,どれくらい見えたら実行するか
-            reset: true   // 何回もアニメーション表示するか
+        ScrollReveal().reveal(".eventCell", {
+            duration: 800,
+            viewFactor: 0.01,
+            reset: true
         });
     }, [])
     return (
