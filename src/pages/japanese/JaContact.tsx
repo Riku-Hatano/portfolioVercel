@@ -1,10 +1,10 @@
 import React from "react";
 import { FormEvent } from "react";
-import dbRequests from "../server/dbRequests";
-import axiosObj from "../server/sendMailConfig";
+import dbRequests from "../../server/dbRequests";
+import axiosObj from "../../server/sendMailConfig";
 
 
-const Contact = () => {
+const JaContact = () => {
     const submit = (e: any): void => {
         e.preventDefault();
         // const formData = new FormData(e.target);
@@ -50,7 +50,9 @@ const Contact = () => {
         <>
             <section className="contact">
                 <h1>Contact me</h1>
-                <p>Thanks for reading! If you need contact, please send message through the form or below social medias!</p>
+                <p>
+                    最後まで読んでいただきありがとうございます！必要でしたら下記のフォームかSNSからメッセージお待ちしております！
+                </p>
                 {/* <section>
                     <ul>
                         <a href="mailto:lutianle89@gmail.com?subject=SweetWords&body=Please send me a copy of your new program!">
@@ -86,15 +88,15 @@ const Contact = () => {
                 </form> */}
                 <form onSubmit={submitMail}>
                     <article>
-                        <input type="text" name="name" placeholder="Your Name"/>
-                        <input type="email" name="email" placeholder="Your Email Address"/>
+                        <input type="text" name="name" placeholder="名前"/>
+                        <input type="email" name="email" placeholder="メールアドレス"/>
                     </article>
-                    <textarea name="message" placeholder="Message here"></textarea>
-                    <button type="submit">submit</button>
+                    <textarea name="message" placeholder="メッセージ"></textarea>
+                    <button type="submit">送信</button>
                 </form>
             </section>
         </>
     )
 }
 
-export default Contact;
+export default JaContact;

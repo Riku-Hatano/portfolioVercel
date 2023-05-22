@@ -80,21 +80,21 @@ const About = () => {
                             </article>
                             <article className="eventCell">
                                 <p>
-                                    <span>2003~2015</span>
+                                    <span>2003~'15</span>
                                 </p>
                                 <div><span></span></div>
                                 <aside>
                                     <img src={pic1} alt="born" />
                                     <figcaption>
                                         <p>
-                                            Moved to Chiba prefecture close to Tokyo. And I have played soccer for full of 13 years without studying. 
+                                            Moved to Chiba prefecture close to Tokyo. And I have played soccer for full of 13 years.
                                         </p>
                                     </figcaption>
                                 </aside>
                             </article>
                             <article className="eventCell">
                                 <p>
-                                    <span>2015~2018</span>
+                                    <span>2015~'18</span>
                                 </p>
                                 <div><span></span></div>
                                 <aside>
@@ -108,7 +108,7 @@ const About = () => {
                             </article>
                             <article className="eventCell">
                                 <p>
-                                    <span>2018~2021</span>
+                                    <span>2018~'21</span>
                                 </p>
                                 <div><span></span></div>
                                 <aside>

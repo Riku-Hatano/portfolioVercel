@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const JaNav = () => {
     return (
         <>
             <nav>
@@ -13,19 +13,19 @@ const Nav = () => {
                     </summary>
                     <ul>
                         <li>
-                            <Link to="/">home</Link>
+                            <Link to="/ja">home</Link>
                         </li>
                         <li>
-                            <Link to="/about">about</Link>
+                            <Link to="/ja/about">about</Link>
                         </li>
                         <li>
-                            <Link to="/contact">contact</Link>
+                            <Link to="/ja/contact">contact</Link>
                         </li>
                         <li>
-                            <Link to="/works">works</Link>
+                            <Link to="/ja/works">works</Link>
                         </li>
                         <li>
-                            <Link to="/ja">japanese</Link>
+                            <Link to="/">english</Link>
                         </li>
                     </ul>
                 </details>
@@ -43,7 +43,7 @@ const Nav = () => {
                         <Link to="/works">works</Link>
                     </li>
                     <li>
-                        <Link to="/ja">japanese</Link>
+                        <Link to="/">english</Link>
                     </li>
                 </ul>
                 <h2>Riku's portfolio</h2>
@@ -51,4 +51,4 @@ const Nav = () => {
         </>
     )
 }
-export default Nav;
+export default JaNav;
