@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
 import pic1 from "../assets/imgs/pic1.jpeg";
+import Born from "../assets/imgs/Born.png";
+import Es from "../assets/imgs/Es.png";
+import Hs from "../assets/imgs/Hs.png";
+import Us from "../assets/imgs/Us.png";
+import Sa from "../assets/imgs/Sa.jpeg";
 import ScrollReveal from "scrollreveal";
 
 const About = () => {
@@ -70,7 +75,7 @@ const About = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Born} alt="born" />
                                     <figcaption>
                                         <p>
                                             Born in Niigata prefecture, located on north of Tokyo. I was too mischievous and oftern do stupid things to stranger though, I don't remember anything.
@@ -84,7 +89,7 @@ const About = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Es} alt="elementalyjuniorhigh" />
                                     <figcaption>
                                         <p>
                                             Moved to Chiba prefecture close to Tokyo. And I have played soccer for full of 13 years.
@@ -98,7 +103,7 @@ const About = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Hs} alt="highschool" />
                                     <figcaption>
                                         <p>
                                             Instead of soccer, I started to play badminton as club activity. But one year later, because of asthma, I quit to play.
@@ -112,7 +117,7 @@ const About = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Us} alt="university" />
                                     <figcaption>
                                         <p>
                                             In university, I have learned Economics. Actually I enjoyed leaning though, I was interested in programming.
@@ -129,7 +134,7 @@ const About = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Sa} alt="studyabroad" />
                                     <figcaption>
                                         <p>
                                             I have been to Dubai to study English and Vancouver to learn WebDevelopment. 

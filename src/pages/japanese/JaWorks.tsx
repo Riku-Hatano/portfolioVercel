@@ -1,5 +1,7 @@
 import React from "react";
 import pic1 from "../../assets/imgs/pic1.jpeg";
+import Othello from "../../assets/imgs/Othello.png";
+import Chess from "../../assets/imgs/Chess.png";
 
 const Works = () => {
     return (
@@ -9,7 +11,7 @@ const Works = () => {
                 <section>
                     <figure>
                         <a href="https://othello-wheat.vercel.app/" className="worksContainer">
-                            <img src={pic1} alt="pic1" />
+                            <img src={Othello} alt="Othello" />
                         </a>
                         <figcaption>
                             <h3>Othello Application</h3>
@@ -30,7 +32,7 @@ const Works = () => {
                     </figure>
                     <figure>
                         <a href="https://chessgame-one.vercel.app/game" className="worksContainer">
-                            <img src={pic1} alt="pic1" />
+                            <img src={Chess} alt="Chess" />
                         </a>
                         <figcaption>
                             <h3>チェスアプリ</h3>

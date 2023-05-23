@@ -1,6 +1,11 @@
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import pic1 from "../../assets/imgs/pic1.jpeg";
+import Born from "../../assets/imgs/Born.png";
+import Es from "../../assets/imgs/Es.png";
+import Hs from "../../assets/imgs/Hs.png";
+import Us from "../../assets/imgs/Us.png";
+import Sa from "../../assets/imgs/Sa.jpeg";
 
 const JaAbout = () => {
     useEffect(() => {
@@ -72,7 +77,7 @@ const JaAbout = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Born} alt="born" />
                                     <figcaption>
                                         <p>
                                             新潟県で生まれる。小さい頃は知らない人にひたすら話しかけるなど、いたずらっ子だった。記憶はない。
@@ -86,7 +91,7 @@ const JaAbout = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Es} alt="elementalyjuniorhigh" />
                                     <figcaption>
                                         <p>
                                             幼稚園から中学の終わりまでの13年間サッカーに励む。中学の頃には市の代表に選ばれ”かける”などの活躍を見せた。
@@ -100,7 +105,7 @@ const JaAbout = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Hs} alt="highschool" />
                                     <figcaption>
                                         <p>
                                             高校からはバドミントンを新しく始める。しかし喘息により一年ほどで部活を辞めてしまう。
@@ -114,7 +119,7 @@ const JaAbout = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Us} alt="university" />
                                     <figcaption>
                                         <p>
                                             大学では経済学を学ぶ。講義はもちろんサークル活動、ゼミ、バイトなどに精を出す。その一方でプログラミングにも興味を持ち出す。
@@ -131,7 +136,7 @@ const JaAbout = () => {
                                 </p>
                                 <div><span></span></div>
                                 <aside>
-                                    <img src={pic1} alt="born" />
+                                    <img src={Sa} alt="studyabroad" />
                                     <figcaption>
                                         <p>
                                             ドバイの語学学校に行き、その後、バンクーバーにウェブ開発を勉強しに行く。

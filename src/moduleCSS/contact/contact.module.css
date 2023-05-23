@@ -1,0 +1,5 @@
+form > article > .submitBtn {
+    padding-right: 4vh;
+    padding-left: 4vh;
+    background-color: red;
+}

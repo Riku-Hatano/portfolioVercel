@@ -2,6 +2,7 @@ import React from "react";
 import { FormEvent } from "react";
 import dbRequests from "../../server/dbRequests";
 import axiosObj from "../../server/sendMailConfig";
+import styles from "../../moduleCSS/contact/contact.module.css";
 
 
 const JaContact = () => {
@@ -92,7 +93,7 @@ const JaContact = () => {
                         <input type="email" name="email" placeholder="メールアドレス"/>
                     </article>
                     <textarea name="message" placeholder="メッセージ"></textarea>
-                    <button type="submit">送信</button>
+                    <button type="submit" className={styles.submitBtn}>送信</button>
                 </form>
             </section>
         </>
