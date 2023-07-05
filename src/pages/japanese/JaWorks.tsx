@@ -55,26 +55,6 @@ const Works = () => {
                         </figcaption>
                     </figure>
                     <figure>
-                        <a href="https://chessgame-one.vercel.app/game" className="worksContainer">
-                            <img src={Chess} alt="Chess" />
-                        </a>
-                        <figcaption>
-                            <h3>チェスアプリ</h3>
-                            <p>
-                                このアプリにはまだ編集機能はありませんが、実装予定です。
-                            </p>
-                            <p>
-                                こちらもオセロアプリと同様に、私の知る限りでは無料配布されているアプリで編集機能のあるものは有りません。
-                            </p>
-                            <p> 
-                                オセロアプリとは違い、カプセル化を意識して作りました。個々の機能が独立しているため、新しい機能の実装が容易です。
-                            </p>
-                            <p>
-                                また、オセロアプリと同様にロジックを０から考えたので、そういった点からも新機能の実装が容易に行えます。
-                            </p>
-                        </figcaption>
-                    </figure>
-                    <figure>
                         <a href="https://tetris-riku-hatano.vercel.app" className="worksContainer">
                             <img src={Tetris} alt="Tetris" />
                         </a>
