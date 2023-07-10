@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
-import pic1 from "../../assets/imgs/pic1.jpeg";
 import Born from "../../assets/imgs/Born.png";
 import Es from "../../assets/imgs/Es.png";
 import Hs from "../../assets/imgs/Hs.png";

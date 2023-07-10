@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import About from "./About";
 import Works from "./Works";

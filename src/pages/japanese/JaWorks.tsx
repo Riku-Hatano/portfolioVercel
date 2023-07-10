@@ -1,4 +1,3 @@
-import React from "react";
 import pic1 from "../../assets/imgs/pic1.jpeg";
 import Othello from "../../assets/imgs/Othello.png";
 import Chess from "../../assets/imgs/Chess.png";
@@ -11,7 +10,7 @@ const Works = () => {
                 <h1>works</h1>
                 <section>
                     <figure>
-                        <a href="https://othello-wheat.vercel.app/" className="worksContainer">
+                        <a href="https://othello-wheat.vercel.app/" className="worksContainer" target="_blank">
                             <img src={Othello} alt="Othello" />
                         </a>
                         <figcaption>
@@ -35,7 +34,7 @@ const Works = () => {
                         </figcaption>
                     </figure>
                     <figure>
-                        <a href="https://chessgame-one.vercel.app/game" className="worksContainer">
+                        <a href="https://chessgame-one.vercel.app/game" className="worksContainer" target="_blank">
                             <img src={Chess} alt="Chess" />
                         </a>
                         <figcaption>
@@ -55,7 +54,7 @@ const Works = () => {
                         </figcaption>
                     </figure>
                     <figure>
-                        <a href="https://tetris-riku-hatano.vercel.app" className="worksContainer">
+                        <a href="https://tetris-riku-hatano.vercel.app" className="worksContainer" target="_blank">
                             <img src={Tetris} alt="Tetris" />
                         </a>
                         <figcaption>

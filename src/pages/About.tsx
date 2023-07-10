@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import pic1 from "../assets/imgs/pic1.jpeg";
+import { useEffect } from "react";
 import Born from "../assets/imgs/Born.png";
 import Es from "../assets/imgs/Es.png";
 import Hs from "../assets/imgs/Hs.png";

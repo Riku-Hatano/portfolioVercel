@@ -1,4 +1,3 @@
-import React from "react";
 import { FormEvent } from "react";
 import dbRequests from "../../server/dbRequests";
 import axiosObj from "../../server/sendMailConfig";
